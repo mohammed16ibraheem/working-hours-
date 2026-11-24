@@ -1,0 +1,21 @@
+{
+  "id": "ts-mwt0tpm8-8587e0",
+  "parsed": {
+    "employeeName": "Eklash",
+    "laborId": "316",
+    "month": "October-2026",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "locations": {},
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": true,
+    "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+    "matchedLaborId": "316",
+    "matchedName": "Ekhlas Hashem",
+    "matchedRecordId": "lab-316"
+  }
+}

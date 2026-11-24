@@ -1,0 +1,293 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "AlTaqeenAdvonced\nGreen Cityoore\nNommoAI Enjaz\nDailyWorking HoursDetailsi i lcwwolu\nEmployee Name&ID#\nShakir\nemn.Nlo.S72)\nbib\nManagement 5y\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\n心\nelauI\nWI\n5\n14222000090\n5\nMon\n26-Oct-26\n27-Oct-26\n6\n七\nTue\nWed\n28-0ct-26\n2\nThu\n29-0ct-26\n11\nFri\n30-0ct-26\n6\nSat\n31-0ct-26\n10\n1\n2\nSun\n1-Nov-26\n2\nB\nMon\n2-Nov-26\n3-NoV-26\n22\nTue\nlcBrdalcdoudn\nAdesong\n6\nWed\n4-NoV-26\nThu\n5-Nov-26\n2\nFri\n6-NoV-26\nSat\n7-Nov-26\n8-Nov-26\nSun\n9-NoV-26\nO\nMon\n10-NoV-26\nO\nTue\nWed\n11-Nov-26\na\n12-NoV-26\nThu\nFri\n13-NoV-26\nSat\n14-Nov-26\n15-NoV-26\nSun\n16-NoV-26\nMon\nO\nTue\n17-NoV-26\nO\nWed\n18-NoV-26\nThu\n19-NoV-26\nQ\nFri\n20-NoV-26\nO.\n0\nSat\n21-Nov-26\nO\nSun\n22-Nov-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Shakir Emn.Nlo.S Elaui",
+      "laborId": null,
+      "month": null,
+      "rows": [
+        {
+          "date": "2026-10-29",
+          "locations": {
+            "DS-Plastic": 11
+          },
+          "total": 11,
+          "off": false
+        },
+        {
+          "date": "2026-10-30",
+          "locations": {
+            "Green City": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-10-31",
+          "locations": {
+            "DS-Plastic": 1,
+            "Namma H.O": 2
+          },
+          "total": 3,
+          "off": false
+        },
+        {
+          "date": "2026-11-01",
+          "locations": {
+            "DS-Plastic": 2
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-04",
+          "locations": {
+            "DS-Plastic": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "DS-Plastic": 2
+          },
+          "total": 2,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 125,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 31,
+        "rowsWithHours": 6
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Shakir Ali",
+    "laborId": "572",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 5,
+          "Namma H.O": 7
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 1,
+          "DS-Plastic": 6,
+          "Namma H.O": 7
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Green City": 2,
+          "DS-Plastic": 11
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Green City": 10,
+          "DS-Plastic": 1,
+          "Namma H.O": 2
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 8,
+          "Namma H.O": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "DS-Plastic": 22
+        },
+        "total": 22,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {},
+        "total": 0,
+        "off": true
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 6–22 marked 0 on sheet — committed as off (no hours). Nov 3 = 22h m/c breakdown",
+    "matchedLaborId": "572",
+    "matchedName": "Shakir Ali",
+    "matchedRecordId": "lab-572"
+  }
+}

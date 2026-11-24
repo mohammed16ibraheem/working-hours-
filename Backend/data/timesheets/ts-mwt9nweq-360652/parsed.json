@@ -1,0 +1,112 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "",
+    "parsed": {
+      "employeeName": null,
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 0,
+        "columnsFound": [],
+        "dateRowsFound": 0,
+        "rowsWithHours": 0
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Mohd Yousaf",
+    "laborId": "196",
+    "month": "October-November 2026",
+    "rows": [
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 4,
+          "DS-Residence": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Green City": 5,
+          "DS-Plastic": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 9,
+          "DS-Mgmt": 1
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 8,
+          "DS-Mgmt": 3
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 5,
+          "DS-Residence": 6
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4,
+          "DS-Residence": 2
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "data.json Claude extract — today chunk",
+    "matchedLaborId": "196",
+    "matchedName": "Mohd Yousaf",
+    "matchedRecordId": "lab-196"
+  }
+}

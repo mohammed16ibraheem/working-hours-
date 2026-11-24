@@ -1,0 +1,25 @@
+[
+  {
+    "id": "att-ts-mwt9nb7p--u",
+    "token": "timesheet:ts-mwt9nb7p-c8b385",
+    "matched": true,
+    "faceMismatch": false,
+    "locationId": "loc-ds-plastic",
+    "locationName": "DS-Plastic",
+    "workingHours": "4",
+    "hours": 4,
+    "regularHours": 4,
+    "otHours": 0,
+    "confidence": null,
+    "distance": null,
+    "engine": "timesheet-ocr",
+    "laborId": "575",
+    "name": "Ram Badan",
+    "laborRecordId": "lab-575",
+    "photoDataUrl": "",
+    "createdAt": 1795172400030,
+    "date": "2026-11-20",
+    "source": "timesheet",
+    "timesheetId": "ts-mwt9nb7p-c8b385"
+  }
+]

@@ -1,0 +1,238 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "tesseract+pytesseract",
+    "rawText": "Se a a ee ee ee\n‏ل‎ in FS,\n— ll ee\nee. a ee ee eS\n1% ‏ا ان‎\n“4 a\nSas 2 ec oO ‏ا م‎\nSimoes SC  تاكيتمس‎ : 3\nA part eon cbe outs Datalls i ‏ساعات العمل‎ Ue 1 8\n05 ‏م‎\n‎J Employee Name & 0 co eee ‏لشهر‎ :\n— ‏اسم الموظلف والرقم الوظيني‎ Mowe 11 ‏لاس طش سس‎\n| [Managemen | j\n: | 9 Tan) 55 ee Ante vinta | Central | D5- Namma gaan : :\n. i F 5 wo | Yar\ny ‏التاريخ‎ ae ay Pes) ets ‏القيلا‎ ee ‏ساحة | المكتب‎ :\n| ‏غبت _ |الرئيسي لتماء سكن _ | المركزية‎ = 3\ni ‏كك‎ a ‏لكان جح كك كك اك كك‎ 1\n| ‏اد ل‎ eS ee) 001\nfen ee 1 |] Se ay\n1 Ee a a ey a a SS ee 0\nive [anovze [Lf ‏كك 5ك ند الاك‎ no) Jeng\nee ee ee ‏كر‎ SS ee\n/ i ‏محقنا لوك كك انلك لكك كك 31 :1 كك كك لكك ا‎ ay\nA i SS oS Sa = | ‏كك‎ alee\n7 ae ee ‏مك‎ ra ae ie\n77 a a aos ‏واكك لكا‎\n‏اك لذ لتكتفة | 1ك - |[ | _ | | تدا فو\"‎\nhn a ao | aie ee\ntie | a aS ee ‏لاه اك‎\nie ir ao eee ‏ل‎\n‎7 Fea les mss ‏لهك الح الك يك‎ 15  ] 2 2-12 ‏بلجا حت‎\n| ‏ين ا‎ [|_|\neer Tis ewan) | A ‏متكت‎ a ‏اكاك كا‎\nKon fewewae] | | | ‏كك لكك كك كك كك لاه لل كاك‎ 1\nFoe ‏للك 8ه اك سم‎ a\nea fig nove 0 96| 9 _ | || [11 ‏الله ! كك تاكتك اكتتكا اكتكككا التكتتكك له‎\n‏جا | كك 1ك ]| ا ري‎\nses) fe te\nlzznov-2e] |_| ‏ك2 هك لهك كك د 12 كر‎ 30\n‏حا لسوت‎\n‏كم |_|[ اممف من‎ ١ = Sa ‏كك‎ 1 2\n‏ا‎ ove |] ‏الك كك للاخ ال الوك امك كك كدر‎\neel TOTAL = 5 = E e 2 al (Eee\ns ‏د‎ a ees J\nhai =\nBeers a ae 7-0 7\n",
+    "parsed": {
+      "employeeName": "ee",
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "Handwriting OCR is approximate — review location hours before commit."
+    }
+  },
+  "parsed": {
+    "employeeName": "Iqbal Karigar",
+    "laborId": "195",
+    "month": "November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Al Waha - Villa": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "Al Waha - Villa": 2
+        },
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Seeded from handwritten sheet transcription.",
+    "matchedLaborId": "195",
+    "matchedName": "Iqbal Karigar",
+    "matchedRecordId": "lab-195"
+  },
+  "seed": true
+}

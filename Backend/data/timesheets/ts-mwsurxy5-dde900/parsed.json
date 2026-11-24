@@ -1,0 +1,360 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "OS\nGreen Ctytshere\nNommoAitnjar\nAIvoqeeNAdvenced\nDailyWorking HoursDetailsJleJo\nFortheMonthSpeer-October-2026yi-\nNovembe\nEmployeeName&ID#\nMuieobCemp.No.472\nManagement ijy\nScrap\nMakkah\nGreen\nDS-\n3\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\npea\nI\ny\nLyll\nI\nMon\n26-Oct-26\nQ\n?\nrue\n27-Ott-26\n3\nNed\n28-Oct-26\n11\nrhu\n29-Oct-26\n12\nri\n30-0ct-26\nsat\n31-Oct-26\n10\n10\nsun\n1-Nov-26\n10\nMon\n2-Nov-26\n10\niD\nFue\n3-NoV-26\n1O\n10\nNed\n4-Nov-26\nQ\nrhu\n5-Nov-26\n10\n6-NoV-26\nD\n7-Nov-26\n12\nSat\n12\nsun\n8-Nov-26\nMon\n9-Nov-26\n10-NoV-26\n2.\nrue\n4\n11-NoV-26\n2\nNed\nrhu\n12-NoV-26\nS\n13-NoV-26\n14-NoV-26\n4\nsat\n15-Nov-26\nfo\n6\nsun\n16-Nov-26\nMon\n10\nrue\n17-NoV-26\n6\n4\nNed\n18-Nov-26\n3\n9\nrhu\n19-Nov-26\n2\nZ\n20-NoV-26\nsat\n21-NoV-26\nsun\n22-NoV-26\nMon\n23-Nov-26\nrue\n24-NoV-26\nNed\n25-Nov-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Novembe Muieobcemp.No",
+      "laborId": "472",
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-10-29",
+          "locations": {
+            "DS-Plastic": 12
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-10-31",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-01",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-02",
+          "locations": {
+            "Scrap City": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-03",
+          "locations": {
+            "Scrap City": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "DS-Plastic": 12
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-11-11",
+          "locations": {
+            "DS-Plastic": 4
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "__unassigned__": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-17",
+          "locations": {
+            "Green City": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "Green City": 4
+          },
+          "total": 4,
+          "off": false
+        },
+        {
+          "date": "2026-11-19",
+          "locations": {
+            "DS-Plastic": 9
+          },
+          "total": 2,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 128,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 29,
+        "rowsWithHours": 12
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "MD Mujeeb",
+    "laborId": "478",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Mgmt": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 11,
+          "DS-Plastic": 3
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 8,
+          "DS-Plastic": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Scrap City": 8,
+          "DS-Plastic": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Green City": 15
+        },
+        "total": 15,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Scrap City": 6,
+          "Green City": 4,
+          "DS-Plastic": 2
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Green City": 3,
+          "DS-Plastic": 9
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Oct 26 assigned to DS-Mgmt (mgmt column); Friday Nov 20 has 4h Plastic",
+    "matchedLaborId": "478",
+    "matchedName": "MD Mujeeb",
+    "matchedRecordId": "lab-478"
+  }
+}

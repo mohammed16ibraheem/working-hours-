@@ -1,0 +1,250 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "",
+    "parsed": {
+      "employeeName": null,
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 0,
+        "columnsFound": [],
+        "dateRowsFound": 0,
+        "rowsWithHours": 0
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Shaikh Sadruddin",
+    "laborId": "193",
+    "month": "October-November 2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Scrap City": 2,
+          "Central Workshop": 8
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "Scrap City": 5,
+          "Central Workshop": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "2026-11-21 Total: Total digits struck through/rewritten; 6 + 4 = 10 used (used 10)",
+    "matchedLaborId": "193",
+    "matchedName": "Shaikh Sadruddin",
+    "matchedRecordId": "lab-193"
+  }
+}

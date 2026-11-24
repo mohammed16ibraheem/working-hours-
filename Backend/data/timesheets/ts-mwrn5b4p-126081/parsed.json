@@ -1,0 +1,259 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "tesseract+pytesseract",
+    "rawText": "1 a sh ae 3 rs 4 3-0\noe aS eee ‏ام‎ :\niy cathe ea et ie\nFest pe os a\na ee 2S > es... oO 2 Pig\nwe S2ie «SES ieee eee | ‏اختتتتتا|‎\n‎; 31 1 Daily Working Hours Details ‏ساعات العمل الشهرية‎ Jnl “a\nFis ony 4 For the Month October-November -2026 1-7\n‏اينقت‎ 80 Employee Name & 10 # = \\\nee ‏راد لاد له 7217412 84 اسم الموظف و«الرقم الوظبقي‎ 20\n0 1\nsf; TUG? scrap | Makkah | Green Ds- Management 57 \\\nsinge) city Yard City Plastic | vita | centr! DS: Lei Toray |\nhie ee ‏ساحة مدينة‎ cer) ‏دي إس‎ | say | Workshop Residence | Mem a |\niy ١ 8 aise ‏اللبلاستيك | الخضراع مكة‎ - 0 ae ek 3 10\nee ‏الكت ! الك اليك الك اكه لكك الك الك الح تت ا‎\nva an ee ‏تت‎ a a a ‏كك كحك اك‎ 055\nee ae a ee a a eT\n١ ee ‏ا كا اك اح ا م ا‎ ee ee\n1 SS aa ‏شك كحك ك1 اك اك‎ 5\neee eee ‏لكك اك‎ ee\n00 2 ae ee ‏ا ل كح اك‎\ni eee eee eee a\n: a ee ee ‏تت كت‎\nSE ie ee ee ee er\nie | ‏اك كك لكك ا كك م‎ 1-3\nSe ee ee ‏ا ا‎\nnein = Sb aS _ ‏الك‎ 5\nme eee ‏لكت‎ b=\na 7 i ae | ‏لكك‎ 72-2 S-\nae a ee | ‏ك5 جح‎ 5 O=\nSeo eee See ea ae ‏د‎\n‎= le ee ee\nSe oe a ee eee ١ 2\nae ae a oe a ‏1ك‎\n‏ل‎ a | ne\nTue ‏يرم‎ ne oo ١\neae 2 ‏اي‎\n‎TOTAL - 5 8 53 5 = - ‏أ‎\n",
+    "parsed": {
+      "employeeName": "ee",
+      "laborId": null,
+      "month": "October-2026",
+      "rows": [],
+      "needsReview": true,
+      "note": "Handwriting OCR is approximate — review location hours before commit."
+    }
+  },
+  "parsed": {
+    "employeeName": "Shaikh Sadruddin",
+    "laborId": "193",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Scrap City": 2,
+          "Central Workshop": 8
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "Scrap City": 5,
+          "Central Workshop": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Scrap City": 7,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Seeded from handwritten sheet transcription.",
+    "matchedLaborId": "193",
+    "matchedName": "Shaikh Sadruddin",
+    "matchedRecordId": "lab-193"
+  },
+  "seed": true
+}

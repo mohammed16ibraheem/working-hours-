@@ -1,0 +1,213 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "",
+    "parsed": {
+      "employeeName": null,
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 0,
+        "columnsFound": [],
+        "dateRowsFound": 0,
+        "rowsWithHours": 0
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Sanjay Kumar",
+    "laborId": "424",
+    "month": "October-November 2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "DS-Plastic": 8,
+          "Namma H.O": 3
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 8,
+          "Namma H.O": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "DS-Plastic": 22
+        },
+        "total": 22,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Green City": 4,
+          "DS-Plastic": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "2026-10-27 DS-Plastic: Struck-out digit before the 8; 8 + 3 = total 11 (used 8)",
+    "matchedLaborId": "424",
+    "matchedName": "Sanjay Kumar",
+    "matchedRecordId": "lab-424"
+  }
+}

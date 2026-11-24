@@ -1,0 +1,132 @@
+{
+  "id": "ts-mwt0tuwm-8472b7",
+  "parsed": {
+    "employeeName": "Cmp.No. Md.Limon",
+    "laborId": null,
+    "month": null,
+    "rows": [
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Mgmt": 1
+        },
+        "total": 1,
+        "off": false
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Residence": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "DS-Plastic": 6,
+          "DS-Residence": 2
+        },
+        "total": 8,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "DS-Plastic": 5
+        },
+        "total": 5,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 8
+        },
+        "total": 8,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {},
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 5,
+        "off": false
+      }
+    ],
+    "needsReview": true,
+    "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+    "matchedLaborId": null,
+    "matchedName": null,
+    "matchedRecordId": null
+  }
+}

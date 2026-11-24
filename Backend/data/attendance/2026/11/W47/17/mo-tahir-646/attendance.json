@@ -1,0 +1,25 @@
+[
+  {
+    "id": "att-ts-mwt9mis0--14",
+    "token": "timesheet:ts-mwt9mis0-ba3910",
+    "matched": true,
+    "faceMismatch": false,
+    "locationId": "loc-central-workshop",
+    "locationName": "Central Workshop",
+    "workingHours": "10",
+    "hours": 10,
+    "regularHours": 10,
+    "otHours": 0,
+    "confidence": null,
+    "distance": null,
+    "engine": "timesheet-ocr",
+    "laborId": "646",
+    "name": "Mo Tahir",
+    "laborRecordId": "lab-646",
+    "photoDataUrl": "",
+    "createdAt": 1794913200040,
+    "date": "2026-11-17",
+    "source": "timesheet",
+    "timesheetId": "ts-mwt9mis0-ba3910"
+  }
+]

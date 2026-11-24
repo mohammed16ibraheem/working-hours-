@@ -1,0 +1,467 @@
+{
+  "source": "WhatsApp_Image_2026-11-23_at_8.17.04_AM*",
+  "month": "October-November 2026",
+  "sheets": [
+    {
+      "file": "iqbal-195.jpg",
+      "employeeName": "Iqbal Karigar",
+      "laborId": "195",
+      "month": "November 2026",
+      "risk": "Nov 20 written F-2 → 2h Al Waha - Villa; Fridays otherwise off; Nov 22 added vs prior sheet",
+      "rows": [
+        { "date": "2026-10-26", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-10-27", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-10-28", "locations": { "Al Waha - Villa": 13 }, "total": 13 },
+        { "date": "2026-10-29", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-10-30", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-10-31", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-01", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-02", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-03", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-04", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-05", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-06", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-07", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-08", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-09", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-10", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-11", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-12", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-13", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-14", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-15", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-16", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-17", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-18", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-19", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-20", "locations": { "Al Waha - Villa": 2 }, "total": 2 },
+        { "date": "2026-11-21", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-22", "locations": { "Al Waha - Villa": 10 }, "total": 10 }
+      ]
+    },
+    {
+      "file": "yousaf-196.jpg",
+      "employeeName": "Mohd Yousaf",
+      "laborId": "196",
+      "month": "October-November 2026",
+      "risk": "Sheet only filled Nov 13–22; DS-Residence/DS-Mgmt/Namma verified against daily totals",
+      "rows": [
+        {
+          "date": "2026-11-13",
+          "locations": { "DS-Plastic": 4, "DS-Residence": 6 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-14",
+          "locations": { "DS-Plastic": 5, "DS-Residence": 5 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-15",
+          "locations": { "Green City": 5, "DS-Plastic": 5 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-16",
+          "locations": { "DS-Plastic": 9, "DS-Mgmt": 1 },
+          "total": 10
+        },
+        { "date": "2026-11-17", "locations": { "DS-Plastic": 10 }, "total": 10 },
+        {
+          "date": "2026-11-18",
+          "locations": { "DS-Plastic": 8, "Namma H.O": 3 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-19",
+          "locations": { "DS-Plastic": 5, "DS-Residence": 6 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-20",
+          "locations": { "DS-Plastic": 4, "DS-Residence": 2 },
+          "total": 6
+        },
+        { "date": "2026-11-21", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-22", "locations": { "Al Waha - Villa": 10 }, "total": 10 }
+      ]
+    },
+    {
+      "file": "ishtiaq-312.jpg",
+      "employeeName": "Ishtiaq A.Aziz",
+      "laborId": "312",
+      "month": "October-November 2026",
+      "risk": "Early days DS-Residence vs Villa; Fri Oct 30 has 2h Residence (not blank F); Nov 9 Villa 6 + DS-Mgmt 4",
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "locations": { "DS-Plastic": 11, "DS-Residence": 3 },
+          "total": 14
+        },
+        {
+          "date": "2026-10-27",
+          "locations": { "Green City": 10, "DS-Plastic": 3, "DS-Residence": 1 },
+          "total": 14
+        },
+        {
+          "date": "2026-10-28",
+          "locations": { "Green City": 6, "DS-Plastic": 4, "DS-Residence": 1 },
+          "total": 11
+        },
+        {
+          "date": "2026-10-29",
+          "locations": { "Green City": 5, "DS-Residence": 5 },
+          "total": 10
+        },
+        { "date": "2026-10-30", "locations": { "DS-Residence": 2 }, "total": 2 },
+        { "date": "2026-10-31", "locations": { "Al Waha - Villa": 12 }, "total": 12 },
+        { "date": "2026-11-01", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-02", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-03", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-04", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-05", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-06", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-07", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-08", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        {
+          "date": "2026-11-09",
+          "locations": { "Al Waha - Villa": 6, "DS-Mgmt": 4 },
+          "total": 10
+        },
+        { "date": "2026-11-10", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-11", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-12", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-13", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-14", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-15", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-16", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-17", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-18", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-19", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-20", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-21", "locations": { "Al Waha - Villa": 10 }, "total": 10 },
+        { "date": "2026-11-22", "locations": { "Al Waha - Villa": 10 }, "total": 10 }
+      ]
+    },
+    {
+      "file": "sadruddin-193.jpg",
+      "employeeName": "Shaikh Sadruddin",
+      "laborId": "193",
+      "month": "October-November 2026",
+      "risk": "Only Scrap City + Central Workshop; Fridays blank; Nov 22 added",
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "locations": { "Scrap City": 7, "Central Workshop": 3 },
+          "total": 10
+        },
+        {
+          "date": "2026-10-27",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-10-28",
+          "locations": { "Scrap City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        {
+          "date": "2026-10-29",
+          "locations": { "Scrap City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        { "date": "2026-10-30", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-10-31",
+          "locations": { "Scrap City": 2, "Central Workshop": 8 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-01",
+          "locations": { "Scrap City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-02",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-03",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-04",
+          "locations": { "Scrap City": 5, "Central Workshop": 5 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-05",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        { "date": "2026-11-06", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-07",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-08",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-09",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-10",
+          "locations": { "Scrap City": 7, "Central Workshop": 3 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-11",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-12",
+          "locations": { "Scrap City": 7, "Central Workshop": 3 },
+          "total": 10
+        },
+        { "date": "2026-11-13", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-14",
+          "locations": { "Scrap City": 7, "Central Workshop": 3 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-15",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-16",
+          "locations": { "Scrap City": 7, "Central Workshop": 3 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-17",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-18",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-19",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        { "date": "2026-11-20", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-21",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-22",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        }
+      ]
+    },
+    {
+      "file": "tahir-646.jpg",
+      "employeeName": "Mo Tahir",
+      "laborId": "646",
+      "month": "October-November 2026",
+      "risk": "Oct 28 Central Workshop overwritten 8→6; Nov 22 Central 10 added; no DS-Residence/DS-Mgmt",
+      "rows": [
+        { "date": "2026-10-26", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-10-27", "locations": { "Central Workshop": 10 }, "total": 10 },
+        {
+          "date": "2026-10-28",
+          "locations": { "DS-Plastic": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        {
+          "date": "2026-10-29",
+          "locations": {
+            "Scrap City": 3,
+            "Makkah Yard": 2,
+            "DS-Plastic": 3,
+            "Central Workshop": 2
+          },
+          "total": 10
+        },
+        { "date": "2026-10-30", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-10-31", "locations": { "Central Workshop": 10 }, "total": 10 },
+        {
+          "date": "2026-11-01",
+          "locations": { "Scrap City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        { "date": "2026-11-02", "locations": { "Scrap City": 10 }, "total": 10 },
+        {
+          "date": "2026-11-03",
+          "locations": { "Scrap City": 6, "Makkah Yard": 5, "Green City": 1 },
+          "total": 12
+        },
+        {
+          "date": "2026-11-04",
+          "locations": { "DS-Plastic": 8, "Central Workshop": 2, "Guzain Yard": 1 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-05",
+          "locations": { "Scrap City": 2, "Makkah Yard": 5, "Central Workshop": 3 },
+          "total": 10
+        },
+        { "date": "2026-11-06", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-07",
+          "locations": { "Scrap City": 8, "Central Workshop": 2 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-08",
+          "locations": { "Green City": 4, "Central Workshop": 9 },
+          "total": 13
+        },
+        {
+          "date": "2026-11-09",
+          "locations": { "Scrap City": 3, "Central Workshop": 7 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-10",
+          "locations": { "Scrap City": 4, "Green City": 3, "Central Workshop": 3 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-11",
+          "locations": { "Scrap City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        {
+          "date": "2026-11-12",
+          "locations": { "Scrap City": 8, "Central Workshop": 6 },
+          "total": 14
+        },
+        { "date": "2026-11-13", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-14",
+          "locations": { "Scrap City": 6, "Central Workshop": 4 },
+          "total": 10
+        },
+        { "date": "2026-11-15", "locations": { "Central Workshop": 10 }, "total": 10 },
+        {
+          "date": "2026-11-16",
+          "locations": { "Green City": 3, "Central Workshop": 7 },
+          "total": 10
+        },
+        { "date": "2026-11-17", "locations": { "Central Workshop": 10 }, "total": 10 },
+        {
+          "date": "2026-11-18",
+          "locations": { "Green City": 4, "Central Workshop": 6 },
+          "total": 10
+        },
+        { "date": "2026-11-19", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-11-20", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-21", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-11-22", "locations": { "Central Workshop": 10 }, "total": 10 }
+      ]
+    },
+    {
+      "file": "salman-299.jpg",
+      "employeeName": "Salman Majeed",
+      "laborId": "299",
+      "month": "October-November 2026",
+      "risk": "Oct 26 Scrap City scribble ignored; Oct 31 Central=15; Nov 22 Scrap+Makkah 5+5; no DS-Residence/DS-Mgmt",
+      "rows": [
+        {
+          "date": "2026-10-26",
+          "locations": { "Makkah Yard": 4, "Green City": 5, "DS-Plastic": 7 },
+          "total": 16
+        },
+        {
+          "date": "2026-10-27",
+          "locations": { "Scrap City": 2, "Central Workshop": 8 },
+          "total": 10
+        },
+        { "date": "2026-10-28", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-10-29", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-10-30", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-10-31", "locations": { "Central Workshop": 15 }, "total": 15 },
+        {
+          "date": "2026-11-01",
+          "locations": { "Scrap City": 6, "Makkah Yard": 5 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-02",
+          "locations": { "Makkah Yard": 6, "Central Workshop": 5 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-03",
+          "locations": { "Scrap City": 6, "Makkah Yard": 5, "Green City": 1 },
+          "total": 12
+        },
+        {
+          "date": "2026-11-04",
+          "locations": { "DS-Plastic": 8, "Central Workshop": 2, "Guzain Yard": 1 },
+          "total": 11
+        },
+        { "date": "2026-11-05", "locations": { "Central Workshop": 10 }, "total": 10 },
+        { "date": "2026-11-06", "locations": {}, "total": 0, "off": true },
+        {
+          "date": "2026-11-07",
+          "locations": { "Scrap City": 7, "Green City": 3, "Central Workshop": 1 },
+          "total": 11
+        },
+        {
+          "date": "2026-11-08",
+          "locations": { "Makkah Yard": 11, "Central Workshop": 2 },
+          "total": 13
+        },
+        { "date": "2026-11-09", "locations": { "Makkah Yard": 10 }, "total": 10 },
+        { "date": "2026-11-10", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        { "date": "2026-11-11", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        {
+          "date": "2026-11-12",
+          "locations": { "Makkah Yard": 5, "Central Workshop": 5 },
+          "total": 10
+        },
+        { "date": "2026-11-13", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-14", "locations": { "Makkah Yard": 12 }, "total": 12 },
+        {
+          "date": "2026-11-15",
+          "locations": { "Makkah Yard": 4, "Guzain Yard": 6 },
+          "total": 10
+        },
+        { "date": "2026-11-16", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        { "date": "2026-11-17", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        {
+          "date": "2026-11-18",
+          "locations": { "Makkah Yard": 7, "Central Workshop": 4 },
+          "total": 11
+        },
+        { "date": "2026-11-19", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        { "date": "2026-11-20", "locations": {}, "total": 0, "off": true },
+        { "date": "2026-11-21", "locations": { "Makkah Yard": 11 }, "total": 11 },
+        {
+          "date": "2026-11-22",
+          "locations": { "Scrap City": 5, "Makkah Yard": 5 },
+          "total": 10
+        }
+      ]
+    }
+  ]
+}

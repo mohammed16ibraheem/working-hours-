@@ -1,0 +1,371 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "DS\nGreenCilymmolianm\nNammo AI Enloz\nAi Yaaeen Advanced\n646\nDaily Working Hours Details uyejl JaJl leLw Juolis\nFor the Month October-November-2026\nEmployee Name &ID#\nibill\nManagementoyi\nMakkah\nGreen\nDS-\ndeps\nNamma\nGuzain\nCentral\nDS-\nDS-\nDay\nDate\nCity\nPlastic\nTotal\nCity\nYard\nVilla\nH.O\nYard\nWorkshop\nResidence\nMgmt\nSLAJI\nmmin\nele yi\nasswI\nNa-\nMon\n26-Oct-26\n27-0ct-26\nG\nTue\ne\n6\nWed\n28-0ct-26\n10\n3\n3\n72\nThu\n29-0ct-26\nFri\n30-0ct-26\nSat\n31-Oct-26\nSun\n01-Nov-26\nQ-\nMon\n02-NoV-26\nTue\n03-Nov-26\n11\nWed\n04-Nov-26\n16\nThu\n05-Nov-26\n3\nFri\n06-Nov-26\nSat\n07-Nov-26\n8\n13\nSun\n08-Nov-26\n10-\nMon\n09-Nov-26\n3\nTue\n10-Nov-26\n1o-\nWed\n11-Nov-26\n4\n14.\n8\n6\nThu\n12-Nov-26\nFri\n13-NoV-26\n4\n10\nSat\n14-NoV-26\nG\n10\n15-NoV-26\nSun\n1o-\nMon\n16-Nov-26\nTue\n17-Nov-26\n6\nWed\n18-Nov-26\nThu\n19-Nov-26\nFri\n20-Nov-26\nQ\nSat\n21-NoV-26\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-Nov-26\nTOTAL",
+    "parsed": {
+      "employeeName": "Ibill Slaji",
+      "laborId": "646",
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-11-03",
+          "locations": {
+            "__unassigned__": 11
+          },
+          "total": 11,
+          "off": false
+        },
+        {
+          "date": "2026-11-04",
+          "locations": {
+            "__unassigned__": 16
+          },
+          "total": 16,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "Makkah Yard": 3
+          },
+          "total": 3,
+          "off": false
+        },
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "__unassigned__": 13
+          },
+          "total": 13,
+          "off": false
+        },
+        {
+          "date": "2026-11-08",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-10",
+          "locations": {
+            "Central Workshop": 3
+          },
+          "total": 3,
+          "off": false
+        },
+        {
+          "date": "2026-11-11",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-12",
+          "locations": {
+            "Central Workshop": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-14",
+          "locations": {
+            "Central Workshop": 4
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-16",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "Central Workshop": 6
+          },
+          "total": 6,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 127,
+        "columnsFound": [
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 27,
+        "rowsWithHours": 12
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Mo Tahir",
+    "laborId": "646",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Scrap City": 3,
+          "Makkah Yard": 2,
+          "DS-Plastic": 3,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 6,
+          "Makkah Yard": 5,
+          "Green City": 1
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 8,
+          "Central Workshop": 2,
+          "Guzain Yard": 1
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Scrap City": 2,
+          "Makkah Yard": 5,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Green City": 4,
+          "Central Workshop": 9
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 3,
+          "Central Workshop": 7
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 4,
+          "Green City": 3,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 6
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Green City": 3,
+          "Central Workshop": 7
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 4 Central Workshop corrected from overwritten 3→2",
+    "matchedLaborId": "646",
+    "matchedName": "Mo Tahir",
+    "matchedRecordId": "lab-646"
+  }
+}

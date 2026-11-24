@@ -1,0 +1,166 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "S\nA\nArTogeonAdvanced\nNommaAitnjot\nDailyWorking HoursDetailsiewo\nFortheMonthSeptemberOctober-2026ySi-\nNlovemloe\nEmployee Name&ID#\nShakir\nCemy.No.S72)\nbyaiba\nManagement iy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nYard\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nhoy\nXiI\n心\nelMaLI\nKWI\niSWI\n2\n5\nMon\n26-Oct-26\n6\n七\nTue\n27-0ct-26\n2\nWed\n28-Oct-26\nThu\n29-0ct-26\n6\nFri\n30-0ct-26\n0\n2\nSat\n31-Oct-26\nSun\n1-Nov-26\nMon\n2-Nov-26\n22\nmlcBrdalcdoudndeong\nTue\n3-NoV-26\n6\nWed\n4-Nov-26\n2\nThu\n5-NoV-26\nFri\n6-Nov-26\nSat\n7-NoV-26\n8-NoV-26\nSun\nO\nMon\n9-NoV-26\nTue\n10-NoV-26\nWed\n11-Nov-26\nThu\n12-NoV-26\nFri\n13-NoV-26\nSat\n14-NoV-26\nSun\n15-NoV-26\nMon\n16-NoV-26\nO\nTue\n17-Nov-26\nWed\n18-NoV-26\nO\nThu\n19-NoV-26\nFri\n20-NoV-26\n0\nles\n21-NoV-26\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\ncS\nCamScanner",
+    "parsed": {
+      "employeeName": "Nlovemloe Shakir Cemy.No.S Byaiba Elmali",
+      "laborId": null,
+      "month": "September-2026",
+      "rows": [
+        {
+          "date": "2026-10-31",
+          "locations": {
+            "Namma H.O": 2
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-04",
+          "locations": {
+            "DS-Plastic": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "DS-Plastic": 2
+          },
+          "total": 2,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 121,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "Green City",
+          "DS-Plastic",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 28,
+        "rowsWithHours": 3
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Shakir Ali",
+    "laborId": "572",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 5,
+          "Namma H.O": 7
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 1,
+          "DS-Plastic": 6,
+          "Namma H.O": 7
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Green City": 2,
+          "DS-Plastic": 11
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Green City": 10,
+          "DS-Plastic": 1,
+          "Namma H.O": 2
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 8,
+          "Namma H.O": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "DS-Plastic": 22
+        },
+        "total": 22,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 6–21 marked 0 in Plastic/Total — treated as no work (not committed). Nov 3 = 22h m/c breakdown",
+    "matchedLaborId": "572",
+    "matchedName": "Shakir Ali",
+    "matchedRecordId": "lab-572"
+  }
+}

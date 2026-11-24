@@ -1,0 +1,124 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "AIYoneenAevGhced\nGreenCityweroi\nNommoAI Enjar\nDailyWorkingHoursDetailsayaJi l lelwJuoli\nFor the Month October-November-2026\nEmployee Name&ID#\nEKLASH\nID.316\nbib\nManagementoyloyi\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nI\nPSJI\nMon\n26-0ct-26\nTue\n27-Oct-26\nWed\n28-0ct-26\nThu\n29-0ct-26\nFri\n30-0ct-26\nles\n31-0ct-26\nSun\n01-Nov-26\nMon\n02-Nov-26\nTue\n03-Nov-26\nWed\n04-Nov-26\nThu\n05-Nov-26\nFri\n06-Nov-26\nSat\n07-Nov-26\nSun\n08-Nov-26\nMon\n09-Nov-26\nTue\n10-Nov-26\nWed\n11-Nov-26\nThu\n12-NoV-26\nFri\n13-Nov-26\nSat\n14-Nov-26\n15-Nov-26\n10\nSun\nMon\n16-Nov-26\nD\nTue\n17-Nov-26\nWed\n18-NoV-26\nThu\n19-Nov-26\nFri\n20-NoV-26\nSat\n21-NoV-26\nSun\n22-Nov-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Eklash",
+      "laborId": "316",
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 100,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "Green City",
+          "DS-Plastic",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 31,
+        "rowsWithHours": 1
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Ekhlas Hashem",
+    "laborId": "316",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Green City": 9,
+          "DS-Plastic": 2
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Green City": 4,
+          "DS-Plastic": 7
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Green City": 5,
+          "DS-Plastic": 6
+        },
+        "total": 11,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Sheet only filled Nov 15–22; earlier dates blank (prior days kept by date-merge)",
+    "matchedLaborId": "316",
+    "matchedName": "Ekhlas Hashem",
+    "matchedRecordId": "lab-316"
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "id": "ts-mwt0t9tc-a5cba0",
+  "parsed": {
+    "employeeName": "Shakir Emn.Nlo.S Elaui",
+    "laborId": null,
+    "month": null,
+    "rows": [
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {
+          "Green City": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 1,
+          "Namma H.O": 2
+        },
+        "total": 3,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 2
+        },
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 6
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 2
+        },
+        "total": 2,
+        "off": false
+      }
+    ],
+    "needsReview": true,
+    "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+    "matchedLaborId": "572",
+    "matchedName": "Shakir Ali",
+    "matchedRecordId": "lab-572"
+  }
+}

@@ -1,0 +1,382 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "DS\nAiTeaeenAdvenced\nGreen Cnyet\nDailyWorkingHoursDetailswlewJuol\nFortheMonhOctober-2026i-\nEmployee Name&ID#\nNovembe\nshtiygque\nbib\ngmpNo,312\nV\nManagement jy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\ncity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\ny\nimk\n心\nelaLI\n了\nSWI\nMon\n26-Oct-26\n3\nTue\n27-Oct-26\n11\n14\n安\nS\n11.\nWed\n28-Oct-26\nThu\n29-0ct-26\n5\nFri\n30-0ct-26\n12\n12\nSat\n31-Oct-26\nSun\n1-Nov-26\n10\n10\n2-Nov-26\n10\n10\nMon\n3-NoV-26\n10\nTue\nQ\n4-NoV-26\nQ\nWed\n5-Nov-26\nThu\nFri\n6-NoV-26\nSat\n7-NoV-26\n10\n8-NoV-26\n10\nSun\n6\n9-NoV-26\nMon\nO\n10-NoV-26\nTue\nO\nWed\n11-Nov-26\n12-NoV-26\nThu\nFri\n13-NoV-26\n10\nSat\n14-NoV-26\nD\n15-NoV-26\n10\nSun\nMon\n16-NoV-26\nQ\n10\nTue\n17-NoV-26\n0\n10\n10\nWed\n18-NoV-26\n10\n19-NoV-26\n10\nThu\nFri\n20-NoV-26\n21-NoV-26\nQ\nSat\nO\n10\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Novembe Shtiygque Gmpno Elali",
+      "laborId": null,
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-10-31",
+          "locations": {
+            "Al Waha - Villa": 12
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-11-01",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-02",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-03",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-08",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-09",
+          "locations": {
+            "Al Waha - Villa": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-14",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-16",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-17",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-19",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-22",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 138,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 31,
+        "rowsWithHours": 14
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Ishtiaq A.Aziz",
+    "laborId": "312",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 11,
+          "DS-Residence": 3
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 11,
+          "DS-Plastic": 3
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 5
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Green City": 5,
+          "DS-Residence": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {
+          "DS-Residence": 2
+        },
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Al Waha - Villa": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Al Waha - Villa": 6,
+          "DS-Residence": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 15 Green City scribble ignored; Nov 9 Villa 6 + DS-Residence 4; Fri Oct 30 = 2h Residence",
+    "matchedLaborId": "312",
+    "matchedName": "Ishtiaq A.Aziz",
+    "matchedRecordId": "lab-312"
+  }
+}

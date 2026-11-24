@@ -1,0 +1,25 @@
+[
+  {
+    "id": "att-ts-mwt9nman--c",
+    "token": "timesheet:ts-mwt9nman-810b1c",
+    "matched": true,
+    "faceMismatch": false,
+    "locationId": "loc-ds-plastic",
+    "locationName": "DS-Plastic",
+    "workingHours": "4",
+    "hours": 4,
+    "regularHours": 4,
+    "otHours": 0,
+    "confidence": null,
+    "distance": null,
+    "engine": "timesheet-ocr",
+    "laborId": "424",
+    "name": "Sanjay Kumar",
+    "laborRecordId": "lab-424",
+    "photoDataUrl": "",
+    "createdAt": 1793962800012,
+    "date": "2026-11-06",
+    "source": "timesheet",
+    "timesheetId": "ts-mwt9nman-810b1c"
+  }
+]

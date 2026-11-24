@@ -1,0 +1,56 @@
+{
+  "id": "ts-mwt0u4ve-06be87",
+  "parsed": {
+    "employeeName": "Mohannedyousue",
+    "laborId": "196",
+    "month": "September-2026",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "DS-Plastic": 20,
+          "Green City": 5
+        },
+        "total": 25,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Mgmt": 1
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 8
+        },
+        "total": 8,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 5
+        },
+        "total": 5,
+        "off": false
+      }
+    ],
+    "needsReview": true,
+    "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+    "matchedLaborId": "196",
+    "matchedName": "Mohd Yousaf",
+    "matchedRecordId": "lab-196"
+  }
+}

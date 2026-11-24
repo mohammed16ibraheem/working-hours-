@@ -1,0 +1,127 @@
+{
+  "id": "ts-mwt0si3c-94774f",
+  "parsed": {
+    "employeeName": "Niwemb Mujeobcemp.A Elall",
+    "laborId": null,
+    "month": "October-2026",
+    "rows": [
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 16,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {},
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {},
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 2
+        },
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {},
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Green City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 9
+        },
+        "total": 9,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": true,
+    "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+    "matchedLaborId": null,
+    "matchedName": null,
+    "matchedRecordId": null
+  }
+}

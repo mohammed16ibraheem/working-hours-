@@ -1,0 +1,251 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "tesseract+pytesseract",
+    "rawText": "00\n| , \\\n(S) A\nSs : © ‏ب‎ (\nee ‏خلج يجي سيا‎ 00 Steer City ‏سا‎ Nominc, 9 ْ 3\nily Worki ils ‏صيل ساعات العمل الشهرية‎ ْ\n‏ا‎ 2 Sian Nava -2026 ١ &\nEmployee Name & ID # a PM), - ‏ا‎ 1717\nEN ‏11م ررق ار لفت اسم الموظف والرقم‎ 222222-5 '\nManagement 222 im x\nDay Date ce ea ae apie Villa ies nee a oe ae\n55 re ‏د‎ : 5 2 ene\n‏اليوم‎ | Co Ge oe ae be ‏الفيلا‎ 0 ee es ‏الرئيسى لنماء‎ | 2 ess |\nie ee Se :\nTh PS a |\nees Sle ‏22م‎ ee |\nee ee ee eee |\n0 0\n‏لدت‎ | eee ee oe |\nSe Se SS eee\nsac | ‏لاس اكاك سكسس‎ © Sa) ae\nse ce | ‏له‎ ١ 1 2\n‏ا طلم‎\nio ‏طسد د‎ ١ ١ ‏2د‎ 2 2\neters | a ‏امد د‎\nwhee | ne ‏م د د د تدس‎\n‏ام لد د سد 1 اند ادي اش سد د ا‎\n‏لخصماس‎ ١ ‏اك‎ 50 2\n‏لضا | عند‎ ee ‏ل‎ ee\n‏تمك معنا‎ [Ft 2222-5-2\n‏الج‎ | a\nmS 2 2\nfe ‏لمجتت لح لطا لمك شك ل رن‎\n| at ‏جا ا‎ 2\nieee ‏لالابلال]‎ cia a\nae eS eS :\n5 fe ene [| aso eS ee ee\n3 ‏ص سس مك كس جلت اس‎\nTOTAL 3\n",
+    "parsed": {
+      "employeeName": "EN",
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "Handwriting OCR is approximate — review location hours before commit."
+    }
+  },
+  "parsed": {
+    "employeeName": "Salman Majeed",
+    "laborId": "299",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Makkah Yard": 4,
+          "Green City": 5,
+          "DS-Plastic": 1
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Scrap City": 2,
+          "Central Workshop": 8
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Central Workshop": 15
+        },
+        "total": 15,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Scrap City": 6,
+          "Makkah Yard": 5
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Makkah Yard": 6,
+          "Central Workshop": 5
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 6,
+          "Makkah Yard": 5,
+          "Green City": 1,
+          "Guzain Yard": 1
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Scrap City": 7,
+          "Green City": 3,
+          "Central Workshop": 1
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Green City": 11,
+          "Central Workshop": 2
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Green City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Green City": 5,
+          "Central Workshop": 15
+        },
+        "total": 20,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Green City": 12,
+          "Guzain Yard": 6
+        },
+        "total": 18,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Green City": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 7,
+          "Central Workshop": 4
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Seeded from handwritten sheet transcription.",
+    "matchedLaborId": "299",
+    "matchedName": "Salman Majeed",
+    "matchedRecordId": "lab-299"
+  },
+  "seed": true
+}

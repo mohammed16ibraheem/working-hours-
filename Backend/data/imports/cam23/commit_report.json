@@ -1,0 +1,530 @@
+{
+  "at": "2026-11-23T08:49:12.038Z",
+  "source": "CamScanner_23-11-2026_11.30.pdf",
+  "attendanceCount": 359,
+  "report": [
+    {
+      "file": "page-1.jpg",
+      "timesheetId": "ts-mwt0si3c-94774f",
+      "employeeName": "MD Mujeeb",
+      "laborId": "478",
+      "workDays": 25,
+      "committed": 32,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Oct 29 Plastic overwritten 11\u219210 (not 110); Oct 26 DS-Mgmt; Nov 22 Plastic 10 added; Fri Nov 20 = 4h",
+      "locations": [
+        "DS-Mgmt",
+        "DS-Plastic",
+        "Green City",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-22"
+    },
+    {
+      "file": "page-2.jpg",
+      "timesheetId": "ts-mwt0suno-04f5b0",
+      "employeeName": "Ishtiaq A.Aziz",
+      "laborId": "312",
+      "workDays": 25,
+      "committed": 30,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Nov 15 Green City scribble ignored; Nov 9 Villa 6 + DS-Residence 4; Fri Oct 30 = 2h Residence",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-22"
+    },
+    {
+      "file": "page-3.jpg",
+      "timesheetId": "ts-mwt0t1nr-4066e7",
+      "employeeName": "Ram Badan",
+      "laborId": "575",
+      "workDays": 24,
+      "committed": 33,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Nov 3 = 22h Plastic (m/c breakdown); Nov 22 Plastic 11 added",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-22"
+    },
+    {
+      "file": "page-4.jpg",
+      "timesheetId": "ts-mwt0t9tc-a5cba0",
+      "employeeName": "Shakir Ali",
+      "laborId": "572",
+      "workDays": 11,
+      "committed": 18,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Nov 6\u201322 marked 0 on sheet \u2014 committed as off (no hours). Nov 3 = 22h m/c breakdown",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-05"
+    },
+    {
+      "file": "page-5.jpg",
+      "timesheetId": "ts-mwt0tg6r-a061ca",
+      "employeeName": "Sanjay Kumar",
+      "laborId": "424",
+      "workDays": 22,
+      "committed": 25,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Nov 3 = 22h Plastic; Nov 20\u201322 = 0 on sheet (off); Oct 27 total 11 = Plastic 8 + Namma 3",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-19"
+    },
+    {
+      "file": "page-6.jpg",
+      "timesheetId": "ts-mwt0tpm8-8587e0",
+      "employeeName": "Ekhlas Hashem",
+      "laborId": "316",
+      "workDays": 8,
+      "committed": 13,
+      "replacedDates": [
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Sheet only filled Nov 15\u201322; earlier dates blank (prior days kept by date-merge)",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Scrap City"
+      ],
+      "dateRange": "2026-11-15 \u2026 2026-11-22"
+    },
+    {
+      "file": "page-7.jpg",
+      "timesheetId": "ts-mwt0tuwm-8472b7",
+      "employeeName": "MD Limon",
+      "laborId": "317",
+      "workDays": 24,
+      "committed": 35,
+      "replacedDates": [
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Nov 3 = 22h Plastic m/c breakdown; Nov 9 Scrap (not Namma) per total; Nov 22 Villa 10 added",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City",
+        "Namma H.O",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 \u2026 2026-11-22"
+    },
+    {
+      "file": "page-8.jpg",
+      "timesheetId": "ts-mwt0u4ve-06be87",
+      "employeeName": "Mohd Yousaf",
+      "laborId": "196",
+      "workDays": 9,
+      "committed": 15,
+      "replacedDates": [
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16",
+        "2026-11-17",
+        "2026-11-18",
+        "2026-11-19",
+        "2026-11-20",
+        "2026-11-21",
+        "2026-11-22"
+      ],
+      "risk": "Sheet filled Nov 14\u201322; Nov 13 marked off to clear prior WhatsApp-only day; Nov 18 = Plastic 8 + DS-Mgmt 3 (not Namma)",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City"
+      ],
+      "dateRange": "2026-11-14 \u2026 2026-11-22"
+    }
+  ],
+  "reportsByLabor": {
+    "193": {
+      "name": "Shaikh Sadruddin",
+      "rows": 48,
+      "hours": 240
+    },
+    "195": {
+      "name": "Iqbal Karigar",
+      "rows": 25,
+      "hours": 245
+    },
+    "196": {
+      "name": "Mohd Yousaf",
+      "rows": 15,
+      "hours": 88
+    },
+    "299": {
+      "name": "Salman Majeed",
+      "rows": 40,
+      "hours": 269
+    },
+    "312": {
+      "name": "Ishtiaq A.Aziz",
+      "rows": 30,
+      "hours": 253
+    },
+    "316": {
+      "name": "Ekhlas Hashem",
+      "rows": 13,
+      "hours": 78
+    },
+    "317": {
+      "name": "MD Limon",
+      "rows": 35,
+      "hours": 262
+    },
+    "424": {
+      "name": "Sanjay Kumar",
+      "rows": 25,
+      "hours": 231
+    },
+    "478": {
+      "name": "MD Mujeeb",
+      "rows": 32,
+      "hours": 265
+    },
+    "572": {
+      "name": "Shakir Ali",
+      "rows": 18,
+      "hours": 134
+    },
+    "575": {
+      "name": "Ram Badan",
+      "rows": 33,
+      "hours": 275
+    },
+    "646": {
+      "name": "Mo Tahir",
+      "rows": 45,
+      "hours": 250
+    }
+  },
+  "proof": {
+    "reportsSummary": {
+      "totalHours": 2590,
+      "regularHours": 2393,
+      "otHours": 197,
+      "totalRegular": 2393,
+      "totalOt": 197,
+      "records": 359,
+      "mismatchRecords": 0,
+      "days": 245,
+      "employees": 12,
+      "rows": 359
+    },
+    "byEmployee": [
+      {
+        "laborId": "196",
+        "name": "Mohd Yousaf",
+        "hours": 88,
+        "days": 9,
+        "records": 15
+      },
+      {
+        "laborId": "312",
+        "name": "Ishtiaq A.Aziz",
+        "hours": 253,
+        "days": 25,
+        "records": 30
+      },
+      {
+        "laborId": "316",
+        "name": "Ekhlas Hashem",
+        "hours": 78,
+        "days": 8,
+        "records": 13
+      },
+      {
+        "laborId": "317",
+        "name": "MD Limon",
+        "hours": 262,
+        "days": 24,
+        "records": 35
+      },
+      {
+        "laborId": "424",
+        "name": "Sanjay Kumar",
+        "hours": 231,
+        "days": 22,
+        "records": 25
+      },
+      {
+        "laborId": "478",
+        "name": "MD Mujeeb",
+        "hours": 265,
+        "days": 25,
+        "records": 32
+      },
+      {
+        "laborId": "572",
+        "name": "Shakir Ali",
+        "hours": 134,
+        "days": 11,
+        "records": 18
+      },
+      {
+        "laborId": "575",
+        "name": "Ram Badan",
+        "hours": 275,
+        "days": 24,
+        "records": 33
+      }
+    ],
+    "nov22": {
+      "317": [
+        {
+          "loc": "Al Waha - Villa",
+          "hours": 10
+        }
+      ],
+      "575": [
+        {
+          "loc": "DS-Plastic",
+          "hours": 11
+        }
+      ],
+      "478": [
+        {
+          "loc": "DS-Plastic",
+          "hours": 10
+        }
+      ],
+      "312": [
+        {
+          "loc": "Al Waha - Villa",
+          "hours": 10
+        }
+      ],
+      "196": [
+        {
+          "loc": "Al Waha - Villa",
+          "hours": 10
+        }
+      ],
+      "316": [
+        {
+          "loc": "DS-Plastic",
+          "hours": 6
+        },
+        {
+          "loc": "Green City",
+          "hours": 5
+        }
+      ]
+    },
+    "baselineDelta": {
+      "478": "256\u2192265 (+Nov22 Plastic 10, Oct29 11\u219210)",
+      "312": "253\u2192253 (Nov22 already present; Nov9 Residence vs prior Mgmt same hours)",
+      "575": "264\u2192275 (+Nov22 Plastic 11)",
+      "572": "134\u2192134 (Nov6\u201322 off, no new hours)",
+      "424": "231\u2192231 (Nov20\u201322 off)",
+      "316": "67\u219278 (+Nov22 Green5+Plastic6)",
+      "317": "252\u2192262 (+Nov22 Villa 10)",
+      "196": "98\u219288 (\u2212Nov13 cleared as off; Nov14/18 column fixes same totals)"
+    },
+    "untouched": [
+      "193",
+      "195",
+      "299",
+      "646"
+    ]
+  }
+}

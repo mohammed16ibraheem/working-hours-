@@ -1,0 +1,401 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "DS\nAITaqeenAdvonced\nGreenCityteeatons\nNommoAi tnjar\nDailyWorkingHoursDetailsiJlllewJuol\nFor theMonthSer-October-2026i--\nNovembor\nEmployeeName&ID#\nRambadanCEmp.No·S35\nAbyaajgibgllaul\nManagement y\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nsls,\nWorkshop\nResidence\nMgmt\nH.O\npies\n2\nimk\nLy\n心\nelnaLI\nLSWI\nRSWI\nW\nMon\n26-Oct-26\n5\n七\nTue\n27-0ct-26\n2\nWed\n28-Oct-26\n王\n5\nThu\n29-0ct-26\n12\n12\nFri\n30-0ct-26\nles\n2\n13-\n31-0ct-26\nSun\n1-Nov-26\n1D\n10\nMon\n2-Nov-26\n22\nCnlcBhekdguon\nTue\n3-NoV-26\n22\nWed\n4-NoV-26\n1\n一\nQ\n1\n一\n2\nThu\n5-NoV-26\n2\nFri\n6-NoV-26\n6\n1o\n1\n0\nSat\n7-NoV-26\n8-Nov-26\n10\nSun\n10-\n13\n9-NoV-26\n13\nMon\nTue\n10-Nov-26\n5\n2\n12\nWed\n11-Nov-26\n12\n10\nThu\n12-NoV-26\nFri\n13-NoV-26\n14-Nov-26\nSat\n15-NoV-26\n12-\n12\nSun\n16\nMon\n16-NoV-26\n9\n17-Nov-26\n.a\nTue\nWed\n18-NoV-26\n10\n3\nThu\n19-NoV-26\n中\nFri\n20-NoV-26\n4\n6\nSat\n21-NoV-26\n5\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Novembor Rambadancemp.No",
+      "laborId": null,
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-11-01",
+          "locations": {
+            "DS-Plastic": 1
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-03",
+          "locations": {
+            "DS-Residence": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-04",
+          "locations": {
+            "DS-Plastic": 1,
+            "DS-Residence": 1
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "DS-Plastic": 2
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-06",
+          "locations": {
+            "__unassigned__": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 1,
+          "off": false
+        },
+        {
+          "date": "2026-11-08",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-09",
+          "locations": {
+            "DS-Plastic": 13
+          },
+          "total": 13,
+          "off": false
+        },
+        {
+          "date": "2026-11-10",
+          "locations": {
+            "DS-Plastic": 5
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-11",
+          "locations": {
+            "DS-Plastic": 12
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-11-12",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "Green City": 12
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-11-16",
+          "locations": {
+            "Green City": 16
+          },
+          "total": 9,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-19",
+          "locations": {
+            "DS-Plastic": 3
+          },
+          "total": 3,
+          "off": false
+        },
+        {
+          "date": "2026-11-20",
+          "locations": {
+            "DS-Plastic": 4
+          },
+          "total": 4,
+          "off": false
+        },
+        {
+          "date": "2026-11-21",
+          "locations": {
+            "DS-Plastic": 5
+          },
+          "total": 5,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 151,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 27,
+        "rowsWithHours": 17
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Ram Badan",
+    "laborId": "575",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 5,
+          "Namma H.O": 7
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 12,
+          "DS-Plastic": 2
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Green City": 7,
+          "DS-Plastic": 5
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Green City": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Green City": 10,
+          "DS-Plastic": 1,
+          "Namma H.O": 2
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "DS-Plastic": 22
+        },
+        "total": 22,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "DS-Plastic": 13
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "DS-Plastic": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Green City": 9,
+          "DS-Plastic": 2
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 7,
+          "DS-Plastic": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Green City": 7,
+          "DS-Plastic": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 5
+        },
+        "total": 11,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 3 = 22h Plastic (m/c breakdown); Nov 19-21 totals blank on sheet — used cell sums",
+    "matchedLaborId": "575",
+    "matchedName": "Ram Badan",
+    "matchedRecordId": "lab-575"
+  }
+}

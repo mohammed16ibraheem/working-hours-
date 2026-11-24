@@ -1,0 +1,103 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "",
+    "parsed": {
+      "employeeName": null,
+      "laborId": null,
+      "month": null,
+      "rows": [],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 0,
+        "columnsFound": [],
+        "dateRowsFound": 0,
+        "rowsWithHours": 0
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Ekhlas Hashem",
+    "laborId": "316",
+    "month": "October-November 2026",
+    "rows": [
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Green City": 9,
+          "DS-Plastic": 2
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Green City": 4,
+          "DS-Plastic": 7
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4
+        },
+        "total": 4,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Green City": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Green City": 5,
+          "DS-Plastic": 6
+        },
+        "total": 11,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "2026-11-15 Scrap City: Digit scribbled/overwritten; 8 + 2 = total 10 (used 8)",
+    "matchedLaborId": "316",
+    "matchedName": "Ekhlas Hashem",
+    "matchedRecordId": "lab-316"
+  }
+}

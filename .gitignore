@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# dependencies
+# dependencies / build (regenerable — not app data)
 /node_modules
 /Backend/node_modules
 /Backend/.venv
@@ -35,15 +35,13 @@ yarn-debug.log*
 yarn-error.log*
 .pnpm-debug.log*
 
-# env / secrets — never commit
+# env / secrets — never commit (user creates real .env locally)
 .env
 .env.*
 !.env.example
 !.env*.example
-*.pem
 credentials.json
 **/secrets/
-**/*secret*
 
 # vercel
 .vercel
@@ -60,29 +58,15 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# OCR / face models (large downloaded caches)
+# OCR / face models (large downloaded caches — reinstall via app/deps)
 /Backend/models/
 **/insightface/
 **/.EasyOCR/
 **/torch/hub/
-
-# runtime / blob data (keep templates & app code)
-/Backend/data/attendance/
-/Backend/data/imports/
-/Backend/data/timesheets/
-/Backend/data/user/
-/Backend/data/*.migrated
-/Backend/data/*.pre-tree
-/Backend/data/attendance_links.json
-/Backend/data/attendance_logs.json
-/Backend/data/attendance_rejects.json
-/Backend/data/unmatched_attendance.json
-/Backend/data/.test-commit-merge-marker
 
 # temp / OS
 *.tmp
 *.temp
 *.swp
 *~
-.DS_Store
 Thumbs.db

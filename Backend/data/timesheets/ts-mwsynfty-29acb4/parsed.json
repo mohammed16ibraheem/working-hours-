@@ -1,0 +1,350 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "noArtojas\nDailyWorking HoursDetails JlJo\nEmployee Name&1D#195\nNOVEMDEL\nMoHAMMED TOBAL\nKARIGAR\nScrap\nDay\nDate\nMakkah\nGreen\nDS\nManagement syy\ncity\nYard\ncity\nPlastie\nVilla\nCentral\nDS-\nDS-\nNamma\nGuzain\nWorkshop\nResidence\nMgmt\nYard\nTotal\n心\nH.O\neluasli\naug\nMon\n26-Oct-26\n19\nTue\n27-Oct-26\n10\nWed\n28-Oct-26\n13\n2\nThu\n29-0ct-26\n10\nFri\n30-0ct-26\nSat\n31-0ct-26\nSun\n1-Nov-26\nMon\n2-Nov-26\n10\nTue\n3-NoV-26\nWed\n4-NoV-26\n10\n10\nThu\n5-NoV-26\n10.\nFri\n6-NoV-26\nSat\n7-Nov-26\nSun\n8-Nov-26\n10\nMon\n9-Nov-26\nTue\n10-NOV-26\n10\nNo\nWed\n11-NOV-26\n10\n0\n12-NoV-26\n10\n日\nThu\nFri\n13-NoV-26\nies\n14-NoV-26\nO\nSun\n15-NoV-26\nMon\n16-NoV-26\nD\nTue\n17-Nov-26\n6\nWed\n18-NoV-26\n10\nThu\n19-Nov-26\nF2\nFri\n20-NoV-26\n10\nSat\n21-NoV-26\nSun\n22-NOV-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL",
+    "parsed": {
+      "employeeName": "Noartojas Novemdel Mohammed Tobal Karigar",
+      "laborId": "195",
+      "month": null,
+      "rows": [
+        {
+          "date": "2026-10-28",
+          "locations": {
+            "Al Waha - Villa": 13
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-11-02",
+          "locations": {
+            "__unassigned__": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-04",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-08",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-10",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-11",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-12",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "Al Waha - Villa": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-19",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-20",
+          "locations": {},
+          "total": 0,
+          "off": true
+        },
+        {
+          "date": "2026-11-21",
+          "locations": {
+            "Al Waha - Villa": 10
+          },
+          "total": 10,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 117,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 28,
+        "rowsWithHours": 10
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Iqbal Karigar",
+    "laborId": "195",
+    "month": "November 2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Al Waha - Villa": 13
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "Al Waha - Villa": 2
+        },
+        "total": 2,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-22",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 20 written F-2 → 2h Al Waha - Villa; Fridays otherwise off; Nov 22 added vs prior sheet",
+    "matchedLaborId": "195",
+    "matchedName": "Iqbal Karigar",
+    "matchedRecordId": "lab-195"
+  }
+}

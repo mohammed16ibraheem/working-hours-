@@ -1,0 +1,133 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "AlTaaeenAdvahcod\nGreen Chyaho\nNommaAltnjai\nDailyWorking HoursDetailsau Jelewols\nFortheMonthSeptember-etober-2026Si-w-\nDCiOBER-NOVEmBER\nEmployee Name&ID#\n(1D#196)\nMOHAMnED\nYouSuE\nManagement iy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nJI\ny\n心\nL\nRSWI\nMon\n26-Oct-26\nTue\n27-0ct-26\nWed\n28-Oct-26\nThu\n29-0ct-26\nFri\n30-0ct-26\nles\n31-Oct-26\nSun\n1-Nov-26\nMon\n2-Nov-26\nTue\n3-NoV-26\nWed\n4-Nov-26\nThu\n5-NoV-26\nFri\n6-Nov-26\nSat\n7-Nov-26\nSun\n8-Nov-26\nMon\n9-NoV-26\nTue\n10-NoV-26\nWed\n11-NoV-26\nThu\n12-NoV-26\nFri\n13-NoV-26\nSat\n14-Nov-26\n5\n5\n?\nSun\n15-NoV-26\n6\nMon\n16-Nov-26\n0\nTue\n17-NoV-26\nWed\n18-Nov-26\nThu\n19-NoV-26\nFri\n20-NoV-26\nSat\n21-NoV-26\nO\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Mohamned Yousue",
+      "laborId": null,
+      "month": "September-2026",
+      "rows": [
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "DS-Plastic": 5
+          },
+          "total": 5,
+          "off": false
+        },
+        {
+          "date": "2026-11-16",
+          "locations": {
+            "__unassigned__": 6
+          },
+          "total": 6,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 108,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "DS-Plastic",
+          "Green City",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 28,
+        "rowsWithHours": 2
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "Mohd Yousaf",
+    "laborId": "196",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 4,
+          "DS-Residence": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Green City": 5,
+          "DS-Plastic": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 9,
+          "DS-Mgmt": 1
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 8,
+          "DS-Mgmt": 3
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 5,
+          "DS-Residence": 6
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 4,
+          "DS-Residence": 2
+        },
+        "total": 6,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Sheet only filled Nov 14–21; DS-Residence/DS-Mgmt column placement verified against totals",
+    "matchedLaborId": "196",
+    "matchedName": "Mohd Yousaf",
+    "matchedRecordId": "lab-196"
+  }
+}

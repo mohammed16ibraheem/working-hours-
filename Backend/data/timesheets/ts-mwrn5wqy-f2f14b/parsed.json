@@ -1,0 +1,267 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "tesseract+pytesseract",
+    "rawText": "4 cw = NS\n| EDs 8 1 5_3 0-0-0 oO ‏مسوم بسي‎\n| ‏شيعه .زكيعسيم يبي تنسديع‎ 100 Groen City ‏ااا مب‎ 0\nDaily Working Hours Details ‏رمم صر تفاصيل ساعات العمل الشهرية‎\nFor the Month October-November -2026\nEmployee Name & ID # 3 m,\n‏اسم الموظف والرقم الوظيفي‎ OY, Dine 2 ‏سللبجنت رار‎\nDay} Date a cay city |} Plastic | ‏ورين‎ | Central DS- DS- Rena 9 Total\n37 ‏ساحة‎ Ayu wl ‏دي‎ Workshop | Residence | Mgmt : i i)\nof SP | BE] ‏|للبلاستيك | الخضراء| مكة‎ PY ‏الورشة‎ [sige | ‏المكتب | دياس.‎ | Se 2\n‏قزين _| الرئيسي لنماء | المكتب | سكن المركزية‎\neee ae\n=\na ee ‏للك‎\n‎ea a ea me) ‏لكف حت‎\nlrri_|o-oct26 | | EE Ee a ‏ب‎ |\n‏:دكا‎ 31-026 | oe ee ee es ‏لدم بيك‎\nPeg ee ra ee\nce ee ee Sd ‏لان ا لكك ا لكك لكك كك رك‎\n‏6ش يا‎ | ae ea eee ‏الك كرف لكك كك لكك‎\nMo ee alee ee\na 229 ‏كك‎ See eS | ed\nSat__|07-Nov-26 i ‏5ك اح‎ Se Sle 724\nCee Cres ‏كك كد‎ |e ee (La ee\n‏ا‎ [enor 26 | ‏ل ك0 لتك لي‎ 0 [| a [| ‏اك‎\n‏عا‎ نودوص٠‎ [2] | Ss ‏ادن لكك كك لكك كك اك : ني لكك | حك‎\n‏ديا‎ Tee |_| 22 | | ‏اكات لكك‎\n‏ات لكك ا 3ك كت 2213 15 5ك 1ك 35595\" | 2 | 2-52 سا‎\n2 ‏للجذ ات جب م ابا اا | كك لكك لكك ا‎\nsce faeces | |= pa (OP I\nEe nn 5 | 5 oo J ee)\nrege | a ele\n‏لكك | 172 .__ | __ | | !)ودين عن‎\nWed ‏ك5 | عتبونيى)‎ (Re | | ‏م 331 1 لكك‎\nFu oneal | | | No | ‏كك 1ك‎\n‏ورمع‎ re a ee ae ‏اللسط - _ كظا لحك‎\nct pin ‏5ك 91 | .ل لمتكم‎ | \\q ‏ان 1 اك‎ [See\nAre a ‏اسن كشك كك اك اد كك كك‎\nmee | a a aa a a ‏هك 0ك‎ +\nSerres | a 32 21 a ee a ‏انتككا نكا كك‎\n‏رج‎ 200221 | I = ea a ass\nTOTAL 3 5 = = = = = = (as)\n",
+    "parsed": {
+      "employeeName": "Groen City",
+      "laborId": "100",
+      "month": "October-2026",
+      "rows": [
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "__unassigned__": 7
+          },
+          "total": 7,
+          "off": false,
+          "rawLine": "Sat__|07-Nov-26 i ‏5ك اح‎ Se Sle 724"
+        }
+      ],
+      "needsReview": true,
+      "note": "Handwriting OCR is approximate — review location hours before commit."
+    }
+  },
+  "parsed": {
+    "employeeName": "Mo Tahir",
+    "laborId": "646",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "DS-Plastic": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Scrap City": 3,
+          "Makkah Yard": 2,
+          "DS-Plastic": 3,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "Scrap City": 6,
+          "Makkah Yard": 5,
+          "Green City": 1
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {
+          "DS-Plastic": 8,
+          "Central Workshop": 2,
+          "Guzain Yard": 1
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "Scrap City": 2,
+          "Makkah Yard": 5,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Green City": 4,
+          "Central Workshop": 9
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 3,
+          "Central Workshop": 7
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 4,
+          "Green City": 3,
+          "Central Workshop": 3
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "Scrap City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Scrap City": 8,
+          "Central Workshop": 6
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "Scrap City": 6,
+          "Central Workshop": 4
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "Green City": 3,
+          "Central Workshop": 7
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "Green City": 4,
+          "Central Workshop": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Central Workshop": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Seeded from handwritten sheet transcription.",
+    "matchedLaborId": null,
+    "matchedName": null,
+    "matchedRecordId": null
+  },
+  "seed": true
+}

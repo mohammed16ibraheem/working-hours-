@@ -1,0 +1,210 @@
+{
+  "at": "2026-11-23T05:57:39.681Z",
+  "attendanceCount": 346,
+  "report": [
+    {
+      "file": "WhatsApp_Image_2026-11-22_at_12.19.23_PM.jpeg",
+      "timesheetId": "ts-mwsuqk83-a97d82",
+      "employeeName": "Mo Tahir",
+      "laborId": "646",
+      "workDays": 23,
+      "committed": 44,
+      "replaced": 44,
+      "risk": "Nov 4 Central Workshop corrected from overwritten 3→2",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Guzain Yard",
+        "Makkah Yard",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "WhatsApp_Image_2026-11-22_at_12.19.25_PM.jpeg",
+      "timesheetId": "ts-mwsuqwr8-750a7e",
+      "employeeName": "Iqbal Karigar",
+      "laborId": "195",
+      "workDays": 24,
+      "committed": 24,
+      "replaced": 24,
+      "risk": "Fridays marked F; Nov 20 written F-2 → 2h Villa",
+      "locations": [
+        "Al Waha - Villa"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "WhatsApp_Image_2026-11-22_at_12.19.25_PM_(1).jpeg",
+      "timesheetId": "ts-mwsura01-cd343b",
+      "employeeName": "Shaikh Sadruddin",
+      "laborId": "193",
+      "workDays": 23,
+      "committed": 46,
+      "replaced": 46,
+      "risk": null,
+      "locations": [
+        "Central Workshop",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "WhatsApp_Image_2026-11-22_at_12.19.26_PM.jpeg",
+      "timesheetId": "ts-mwsurpkz-e43ad1",
+      "employeeName": "Salman Majeed",
+      "laborId": "299",
+      "workDays": 23,
+      "committed": 38,
+      "replaced": 38,
+      "risk": "Oct 26 Scrap City scribble ignored; Nov 12 Central=5 (not 15); Guzain 6 on Nov 15",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Guzain Yard",
+        "Makkah Yard",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "page-01.jpg",
+      "timesheetId": "ts-mwsurxy5-dde900",
+      "employeeName": "MD Mujeeb",
+      "laborId": "478",
+      "workDays": 24,
+      "committed": 31,
+      "replaced": 0,
+      "risk": "Oct 26 assigned to DS-Mgmt (mgmt column); Friday Nov 20 has 4h Plastic",
+      "locations": [
+        "DS-Mgmt",
+        "DS-Plastic",
+        "Green City",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "page-02.jpg",
+      "timesheetId": "ts-mwsus42r-000f13",
+      "employeeName": "Ishtiaq A.Aziz",
+      "laborId": "312",
+      "workDays": 24,
+      "committed": 29,
+      "replaced": 0,
+      "risk": "Nov 15 Green City 5 struck out — ignored; DS-Residence vs DS-Mgmt column mapping for early days",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "page-03.jpg",
+      "timesheetId": "ts-mwsusd34-aa77c7",
+      "employeeName": "MD Limon",
+      "laborId": "317",
+      "workDays": 23,
+      "committed": 34,
+      "replaced": 0,
+      "risk": "Nov 3 = 22h Plastic with m/c breakdown note; Nov 9 Namma vs Scrap — used Scrap City 10 matching total",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City",
+        "Namma H.O",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "page-04.jpg",
+      "timesheetId": "ts-mwsusjy6-59f20c",
+      "employeeName": "Ram Badan",
+      "laborId": "575",
+      "workDays": 23,
+      "committed": 32,
+      "replaced": 0,
+      "risk": "Nov 3 = 22h Plastic (m/c breakdown); Nov 19-21 totals blank on sheet — used cell sums",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-21"
+    },
+    {
+      "file": "page-05.jpg",
+      "timesheetId": "ts-mwsustl5-ac5a84",
+      "employeeName": "Shakir Ali",
+      "laborId": "572",
+      "workDays": 11,
+      "committed": 18,
+      "replaced": 0,
+      "risk": "Nov 6–21 marked 0 in Plastic/Total — treated as no work (not committed). Nov 3 = 22h m/c breakdown",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-05"
+    },
+    {
+      "file": "page-06.jpg",
+      "timesheetId": "ts-mwsusz5u-988cfc",
+      "employeeName": "Sanjay Kumar",
+      "laborId": "424",
+      "workDays": 22,
+      "committed": 25,
+      "replaced": 0,
+      "risk": "Nov 3 = 22h Plastic; Oct 27 total 11 from Plastic 8 + Namma 3",
+      "locations": [
+        "DS-Plastic",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-19"
+    },
+    {
+      "file": "page-07.jpg",
+      "timesheetId": "ts-mwsut5qg-ebcc5d",
+      "employeeName": "Ekhlas Hashem",
+      "laborId": "316",
+      "workDays": 7,
+      "committed": 11,
+      "replaced": 0,
+      "risk": "Sheet only filled Nov 15–21; earlier dates blank",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Scrap City"
+      ],
+      "dateRange": "2026-11-15 … 2026-11-21"
+    },
+    {
+      "file": "page-08.jpg",
+      "timesheetId": "ts-mwsutapb-a1582d",
+      "employeeName": "Mohd Yousaf",
+      "laborId": "196",
+      "workDays": 8,
+      "committed": 14,
+      "replaced": 0,
+      "risk": "Sheet only filled Nov 14–21; DS-Residence/DS-Mgmt column placement verified against totals",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City"
+      ],
+      "dateRange": "2026-11-14 … 2026-11-21"
+    }
+  ]
+}

@@ -1,0 +1,389 @@
+{
+  "ocr": {
+    "ok": true,
+    "engine": "rapidocr-onnx",
+    "rawText": "DS\nNommaAiEnjor\nDailyWorking HoursDetailsJleJols\nEmployee Name &ID#\nMDLnCm.o.31\nManagement sjy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCentral\nDS-\nDS-\nNamma\nGuzain\nCity\nYard\nCity\nPlastic\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nelwaLi\nLh\n心\nS\n11\nMon\n11\n26-Oct-26\n1\n2\nTue\n27-Oct-26\n5\nWed\n28-Oct-26\n2\nThu\n29-0ct-26\nFri\n30-0ct-26\n10\n10\n31-Oct-26\n10\n10\nSun\n1-NOV-26\n11\n1\nMon\n2-Nov-26\nmIcBorakdoubn-Hredong\n22\n22\nTue\n3-NoV-26\nQ\n一\n一\n一\nWed\n4-Nov-26\n一\nO\n16\nThu\n5-Nov-26\nFri\n6-Nov-26\n10\n10\nSat\n7-NoV-26\n2\n10\n2\n6\nSun\n8-NoV-26\n10\n佰\nMon\n9-Nov-26\n1D\nTue\n10-NoV-26\nWed\n11-NoV-26\n6\n13\nThu\n12-NoV-26\nFri\n13-NoV-26\n0\n4\nSat\n14-NoV-26\n1-\n5\n5\nSun\n15-NoV-26\ng\nMon\n16-NoV-26\n10\nTue\n17-NoV-26\n8\n2\nWed\n18-Nov-26\nThu\n19-NoV-26\nFri\n20-NoV-26\nles\n21-NoV-26\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+    "parsed": {
+      "employeeName": "Mdlncm.O. Elwali",
+      "laborId": null,
+      "month": null,
+      "rows": [
+        {
+          "date": "2026-10-28",
+          "locations": {
+            "__unassigned__": 2
+          },
+          "total": 2,
+          "off": false
+        },
+        {
+          "date": "2026-10-31",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-01",
+          "locations": {
+            "DS-Plastic": 10
+          },
+          "total": 1,
+          "off": false
+        },
+        {
+          "date": "2026-11-02",
+          "locations": {
+            "DS-Plastic": 11
+          },
+          "total": 11,
+          "off": false
+        },
+        {
+          "date": "2026-11-05",
+          "locations": {
+            "DS-Plastic": 16
+          },
+          "total": 16,
+          "off": false
+        },
+        {
+          "date": "2026-11-06",
+          "locations": {
+            "DS-Residence": 10
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-07",
+          "locations": {
+            "DS-Residence": 2
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-08",
+          "locations": {
+            "Green City": 2,
+            "DS-Plastic": 6
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-10",
+          "locations": {
+            "Scrap City": 1
+          },
+          "total": 1,
+          "off": false
+        },
+        {
+          "date": "2026-11-11",
+          "locations": {
+            "__unassigned__": 13
+          },
+          "total": 13,
+          "off": false
+        },
+        {
+          "date": "2026-11-12",
+          "locations": {
+            "DS-Plastic": 6
+          },
+          "total": 6,
+          "off": false
+        },
+        {
+          "date": "2026-11-14",
+          "locations": {
+            "DS-Plastic": 4
+          },
+          "total": 1,
+          "off": false
+        },
+        {
+          "date": "2026-11-15",
+          "locations": {
+            "Green City": 5,
+            "DS-Plastic": 5
+          },
+          "total": 10,
+          "off": false
+        },
+        {
+          "date": "2026-11-17",
+          "locations": {
+            "DS-Plastic": 10,
+            "Namma H.O": 2
+          },
+          "total": 12,
+          "off": false
+        },
+        {
+          "date": "2026-11-18",
+          "locations": {
+            "DS-Plastic": 8
+          },
+          "total": 8,
+          "off": false
+        }
+      ],
+      "needsReview": true,
+      "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+      "ocrMeta": {
+        "engine": "rapidocr-onnx",
+        "detections": 137,
+        "columnsFound": [
+          "Scrap City",
+          "Makkah Yard",
+          "Green City",
+          "DS-Plastic",
+          "Al Waha - Villa",
+          "Central Workshop",
+          "DS-Residence",
+          "DS-Mgmt",
+          "Namma H.O",
+          "Guzain Yard",
+          "Total"
+        ],
+        "dateRowsFound": 29,
+        "rowsWithHours": 15
+      }
+    }
+  },
+  "parsed": {
+    "employeeName": "MD Limon",
+    "laborId": "317",
+    "month": "October-November-2026",
+    "rows": [
+      {
+        "date": "2026-10-26",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-27",
+        "locations": {
+          "Green City": 11,
+          "DS-Plastic": 3
+        },
+        "total": 14,
+        "off": false
+      },
+      {
+        "date": "2026-10-28",
+        "locations": {
+          "Green City": 6,
+          "DS-Plastic": 5
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-10-29",
+        "locations": {
+          "Green City": 12
+        },
+        "total": 12,
+        "off": false
+      },
+      {
+        "date": "2026-10-30",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-10-31",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-01",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-02",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-03",
+        "locations": {
+          "DS-Plastic": 22
+        },
+        "total": 22,
+        "off": false
+      },
+      {
+        "date": "2026-11-04",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-05",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-06",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-07",
+        "locations": {
+          "DS-Residence": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-08",
+        "locations": {
+          "Green City": 2,
+          "DS-Plastic": 6,
+          "DS-Residence": 2
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-09",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-10",
+        "locations": {
+          "Scrap City": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-11",
+        "locations": {
+          "DS-Plastic": 11
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-12",
+        "locations": {
+          "Scrap City": 7,
+          "DS-Plastic": 6
+        },
+        "total": 13,
+        "off": false
+      },
+      {
+        "date": "2026-11-13",
+        "locations": {},
+        "total": 0,
+        "off": true
+      },
+      {
+        "date": "2026-11-14",
+        "locations": {
+          "DS-Plastic": 4,
+          "DS-Residence": 6
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-15",
+        "locations": {
+          "Green City": 5,
+          "DS-Plastic": 5,
+          "DS-Residence": 1
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-16",
+        "locations": {
+          "DS-Plastic": 9,
+          "DS-Mgmt": 1
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-17",
+        "locations": {
+          "DS-Plastic": 10
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-18",
+        "locations": {
+          "DS-Plastic": 8,
+          "Namma H.O": 3
+        },
+        "total": 11,
+        "off": false
+      },
+      {
+        "date": "2026-11-19",
+        "locations": {
+          "DS-Plastic": 5,
+          "DS-Residence": 5
+        },
+        "total": 10,
+        "off": false
+      },
+      {
+        "date": "2026-11-20",
+        "locations": {
+          "DS-Plastic": 5
+        },
+        "total": 5,
+        "off": false
+      },
+      {
+        "date": "2026-11-21",
+        "locations": {
+          "Al Waha - Villa": 10
+        },
+        "total": 10,
+        "off": false
+      }
+    ],
+    "needsReview": false,
+    "note": "Nov 3 = 22h Plastic with m/c breakdown note; Nov 9 Namma vs Scrap — used Scrap City 10 matching total",
+    "matchedLaborId": "317",
+    "matchedName": "MD Limon",
+    "matchedRecordId": "lab-317"
+  }
+}

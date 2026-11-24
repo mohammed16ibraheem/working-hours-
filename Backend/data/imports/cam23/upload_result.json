@@ -1,0 +1,1808 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "id": "ts-mwt0si3c-94774f",
+      "fileName": "CamScanner_23-11-2026_11.30-p01.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0si3c-94774f/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Niwemb Mujeobcemp.A Elall",
+      "laborId": null,
+      "seedKey": null,
+      "createdAt": 1795423510056,
+      "updatedAt": 1795423510056,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Niwemb Mujeobcemp.A Elall",
+        "laborId": null,
+        "month": "October-2026",
+        "rows": [
+          {
+            "date": "2026-10-30",
+            "locations": {},
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-10-31",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 16,
+            "off": false
+          },
+          {
+            "date": "2026-11-02",
+            "locations": {
+              "Scrap City": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-03",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-04",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-05",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-07",
+            "locations": {
+              "DS-Plastic": 12
+            },
+            "total": 12,
+            "off": false
+          },
+          {
+            "date": "2026-11-09",
+            "locations": {
+              "Scrap City": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-11",
+            "locations": {
+              "DS-Plastic": 4
+            },
+            "total": 12,
+            "off": false
+          },
+          {
+            "date": "2026-11-14",
+            "locations": {
+              "DS-Plastic": 2
+            },
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-11-15",
+            "locations": {},
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-11-17",
+            "locations": {
+              "Green City": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-19",
+            "locations": {
+              "DS-Plastic": 9
+            },
+            "total": 9,
+            "off": false
+          },
+          {
+            "date": "2026-11-22",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": null,
+        "matchedName": null,
+        "matchedRecordId": null
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "DS\nAYoqeenAdvonced\nCreenCiytnrn\nNommaAitnjar\nDailyWorkingHoursDetailsJ JleJuos\nFor theMonthSopteer-October-2026si--\nNiwemb\nEmployee Name&ID #\nMujeobCemp.A1o.47)\nb\nManagement ijy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nelaLl\nWI\nI\nc\nMon\n26-0ct-26\nrue\n27-0ct-26\n3\nNed\n28-Oct-26\n11\n1\nrhu\n29-0ct-26\nni\n30-0ct-26\n2\nsat\n31-Oct-26\n10\n10\nsun\n1-NoV-26\n10\n16\nMon\n2-Nov-26\n10\niD\nrue\n3-NoV-26\n10\nNed\n4-Nov-26\n10\nrhu\n5-NoV-26\n10\n10\n6-NoV-26\nD\nat\n7-NoV-26\n12\n12\nsun\n8-Nov-26\nMon\n9-NoV-26\n10\n2.\nrue\n10-NoV-26\n11-NoV-26\n4\n12\nNed\n12-NoV-26\n\u4e2d\nrhu\nni\n13-NoV-26\n14-NoV-26\n2\nsat\n2\nsun\n15-Nov-26\nfo\n6\n16-NoV-26\no\nMon\nD\n10\nrue\n17-Nov-26\n6\nNed\n18-Nov-26\nO\n3\n9\nrhu\n19-Nov-26\n20-NoV-26\nsat\n21-NoV-26\nsun\n22-NoV-26\n10\nMon\n23-NoV-26\nrue\n24-NoV-26\nNed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Niwemb Mujeobcemp.A Elall",
+          "laborId": null,
+          "month": "October-2026",
+          "rows": [
+            {
+              "date": "2026-10-30",
+              "locations": {
+                "__unassigned__": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 16,
+              "off": false
+            },
+            {
+              "date": "2026-11-02",
+              "locations": {
+                "Scrap City": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-03",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-04",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-05",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-07",
+              "locations": {
+                "DS-Plastic": 12
+              },
+              "total": 12,
+              "off": false
+            },
+            {
+              "date": "2026-11-09",
+              "locations": {
+                "Scrap City": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-11",
+              "locations": {
+                "DS-Plastic": 4
+              },
+              "total": 12,
+              "off": false
+            },
+            {
+              "date": "2026-11-14",
+              "locations": {
+                "DS-Plastic": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "__unassigned__": 6
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-11-17",
+              "locations": {
+                "Green City": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-19",
+              "locations": {
+                "DS-Plastic": 9
+              },
+              "total": 9,
+              "off": false
+            },
+            {
+              "date": "2026-11-22",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 133,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "DS-Plastic",
+              "Green City",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0suno-04f5b0",
+      "fileName": "CamScanner_23-11-2026_11.30-p02.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0suno-04f5b0/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Novembe Shtiygque Gmpno Elali",
+      "laborId": null,
+      "seedKey": null,
+      "createdAt": 1795423519127,
+      "updatedAt": 1795423519127,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Novembe Shtiygque Gmpno Elali",
+        "laborId": null,
+        "month": "October-2026",
+        "rows": [
+          {
+            "date": "2026-10-31",
+            "locations": {
+              "Al Waha - Villa": 12
+            },
+            "total": 12,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-02",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-03",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-07",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-08",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-09",
+            "locations": {
+              "Al Waha - Villa": 6
+            },
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-11-14",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-15",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-16",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-17",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-18",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-19",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-22",
+            "locations": {
+              "Al Waha - Villa": 10
+            },
+            "total": 10,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": null,
+        "matchedName": null,
+        "matchedRecordId": null
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "DS\nAiTeaeenAdvenced\nGreen Cnyet\nDailyWorkingHoursDetailswlewJuol\nFortheMonhOctober-2026i-\nEmployee Name&ID#\nNovembe\nshtiygque\nbib\ngmpNo,312\nV\nManagement jy\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\ncity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\ny\nimk\n\u5fc3\nelaLI\n\u4e86\nSWI\nMon\n26-Oct-26\n3\nTue\n27-Oct-26\n11\n14\n\u5b89\nS\n11.\nWed\n28-Oct-26\nThu\n29-0ct-26\n5\nFri\n30-0ct-26\n12\n12\nSat\n31-Oct-26\nSun\n1-Nov-26\n10\n10\n2-Nov-26\n10\n10\nMon\n3-NoV-26\n10\nTue\nQ\n4-NoV-26\nQ\nWed\n5-Nov-26\nThu\nFri\n6-NoV-26\nSat\n7-NoV-26\n10\n8-NoV-26\n10\nSun\n6\n9-NoV-26\nMon\nO\n10-NoV-26\nTue\nO\nWed\n11-Nov-26\n12-NoV-26\nThu\nFri\n13-NoV-26\n10\nSat\n14-NoV-26\nD\n15-NoV-26\n10\nSun\nMon\n16-NoV-26\nQ\n10\nTue\n17-NoV-26\n0\n10\n10\nWed\n18-NoV-26\n10\n19-NoV-26\n10\nThu\nFri\n20-NoV-26\n21-NoV-26\nQ\nSat\nO\n10\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Novembe Shtiygque Gmpno Elali",
+          "laborId": null,
+          "month": "October-2026",
+          "rows": [
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "Al Waha - Villa": 12
+              },
+              "total": 12,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-02",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-03",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-07",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-08",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-09",
+              "locations": {
+                "Al Waha - Villa": 6
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-11-14",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-16",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-17",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-18",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-19",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-22",
+              "locations": {
+                "Al Waha - Villa": 10
+              },
+              "total": 10,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 138,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "DS-Plastic",
+              "Green City",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 14
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0t1nr-4066e7",
+      "fileName": "CamScanner_23-11-2026_11.30-p03.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0t1nr-4066e7/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Novembor Rambadan Cemp.No Elnasi",
+      "laborId": null,
+      "seedKey": null,
+      "createdAt": 1795423529698,
+      "updatedAt": 1795423529698,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Novembor Rambadan Cemp.No Elnasi",
+        "laborId": null,
+        "month": "October-2026",
+        "rows": [
+          {
+            "date": "2026-10-29",
+            "locations": {
+              "Green City": 2
+            },
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-10-31",
+            "locations": {},
+            "total": 13,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 16,
+            "off": false
+          },
+          {
+            "date": "2026-11-05",
+            "locations": {
+              "DS-Plastic": 2
+            },
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-11-07",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-08",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-09",
+            "locations": {
+              "DS-Plastic": 3
+            },
+            "total": 13,
+            "off": false
+          },
+          {
+            "date": "2026-11-11",
+            "locations": {
+              "DS-Plastic": 2
+            },
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-11-12",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-15",
+            "locations": {
+              "DS-Plastic": 12
+            },
+            "total": 12,
+            "off": false
+          },
+          {
+            "date": "2026-11-16",
+            "locations": {
+              "DS-Plastic": 16
+            },
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-11-18",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-21",
+            "locations": {
+              "Green City": 6
+            },
+            "total": 6,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": null,
+        "matchedName": null,
+        "matchedRecordId": null
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "Ds\nAITooeenAdvencea\nGeenCnytao\nNommoAiEnlor\nDailyWorkingHoursDetailsJlewJos\nFor theMonther-October-2026s--\nNovembor\nEmployee Name&ID#\nRambadan CEmp.No:S75\nb\nManagement ijoyi\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nI\nkm\n\u5fc3\nelnasi\nSWI\nGiSI\n26-0ct-26\n5\n\u4e03\nMon\nTue\n27-Oct-26\n2\nWed\n28-Oct-26\n5\n2\nThu\n29-0ct-26\n2\n2\nFri\n30-0ct-26\nes\n31-Oct-26\n0\n13\nSun\n1-Nov-26\n10\n16\nMon\n2-Nov-26\n3-NoV-26\n22\nmlc BhekddonIPrepdng\n22\nTue\n4-NoV-26\n\u4e00\nO\nWed\n\u4e00\n\u4e00\n5-Nov-26\n2\n2\nThu\nFri\n6-Nov-26\n1o\n10\nSat\n7-NoV-26\nS-Nov-26\n10\nSun\n10-\n9-Nov-26\n3\n13\nMon\n10-NoV-26\nTue\n2\nWed\n11-NoV-26\n2\n10\n12-NoV-26\nQ\nThu\nFri\n13-NoV-26\nO\n14-NoV-26\nSat\n12-\n12\nSun\n15-NoV-26\n16\n6\nMon\n16-NoV-26\nTue\n17-NoV-26\n10\nWed\n18-NoV-26\nThu\n19-NoV-26\nFri\n20-NoV-26\nSat\n21-NoV-26\n6\nSun\n22-NoV-26\nMon\n23-Nov-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Novembor Rambadan Cemp.No Elnasi",
+          "laborId": null,
+          "month": "October-2026",
+          "rows": [
+            {
+              "date": "2026-10-29",
+              "locations": {
+                "Green City": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "__unassigned__": 13
+              },
+              "total": 13,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 16,
+              "off": false
+            },
+            {
+              "date": "2026-11-05",
+              "locations": {
+                "DS-Plastic": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-11-07",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-08",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-09",
+              "locations": {
+                "DS-Plastic": 3
+              },
+              "total": 13,
+              "off": false
+            },
+            {
+              "date": "2026-11-11",
+              "locations": {
+                "DS-Plastic": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-11-12",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "DS-Plastic": 12
+              },
+              "total": 12,
+              "off": false
+            },
+            {
+              "date": "2026-11-16",
+              "locations": {
+                "DS-Plastic": 16
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-11-18",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-21",
+              "locations": {
+                "Green City": 6
+              },
+              "total": 6,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 140,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "Green City",
+              "DS-Plastic",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 13
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0t9tc-a5cba0",
+      "fileName": "CamScanner_23-11-2026_11.30-p04.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0t9tc-a5cba0/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Shakir Emn.Nlo.S Elaui",
+      "laborId": "572",
+      "seedKey": null,
+      "createdAt": 1795423537955,
+      "updatedAt": 1795423537955,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Shakir Emn.Nlo.S Elaui",
+        "laborId": null,
+        "month": null,
+        "rows": [
+          {
+            "date": "2026-10-29",
+            "locations": {
+              "DS-Plastic": 11
+            },
+            "total": 11,
+            "off": false
+          },
+          {
+            "date": "2026-10-30",
+            "locations": {
+              "Green City": 6
+            },
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-10-31",
+            "locations": {
+              "DS-Plastic": 1,
+              "Namma H.O": 2
+            },
+            "total": 3,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "DS-Plastic": 2
+            },
+            "total": 2,
+            "off": false
+          },
+          {
+            "date": "2026-11-04",
+            "locations": {
+              "DS-Plastic": 6
+            },
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-11-05",
+            "locations": {
+              "DS-Plastic": 2
+            },
+            "total": 2,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": "572",
+        "matchedName": "Shakir Ali",
+        "matchedRecordId": "lab-572"
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "AlTaqeenAdvonced\nGreen Cityoore\nNommoAI Enjaz\nDailyWorking HoursDetailsi i lcwwolu\nEmployee Name&ID#\nShakir\nemn.Nlo.S72)\nbib\nManagement 5y\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\n\u5fc3\nelauI\nWI\n5\n14222000090\n5\nMon\n26-Oct-26\n27-Oct-26\n6\n\u4e03\nTue\nWed\n28-0ct-26\n2\nThu\n29-0ct-26\n11\nFri\n30-0ct-26\n6\nSat\n31-0ct-26\n10\n1\n2\nSun\n1-Nov-26\n2\nB\nMon\n2-Nov-26\n3-NoV-26\n22\nTue\nlcBrdalcdoudn\nAdesong\n6\nWed\n4-NoV-26\nThu\n5-Nov-26\n2\nFri\n6-NoV-26\nSat\n7-Nov-26\n8-Nov-26\nSun\n9-NoV-26\nO\nMon\n10-NoV-26\nO\nTue\nWed\n11-Nov-26\na\n12-NoV-26\nThu\nFri\n13-NoV-26\nSat\n14-Nov-26\n15-NoV-26\nSun\n16-NoV-26\nMon\nO\nTue\n17-NoV-26\nO\nWed\n18-NoV-26\nThu\n19-NoV-26\nQ\nFri\n20-NoV-26\nO.\n0\nSat\n21-Nov-26\nO\nSun\n22-Nov-26\nMon\n23-NoV-26\nTue\n24-Nov-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Shakir Emn.Nlo.S Elaui",
+          "laborId": null,
+          "month": null,
+          "rows": [
+            {
+              "date": "2026-10-29",
+              "locations": {
+                "DS-Plastic": 11
+              },
+              "total": 11,
+              "off": false
+            },
+            {
+              "date": "2026-10-30",
+              "locations": {
+                "Green City": 6
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "DS-Plastic": 1,
+                "Namma H.O": 2
+              },
+              "total": 3,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "DS-Plastic": 2
+              },
+              "total": 2,
+              "off": false
+            },
+            {
+              "date": "2026-11-04",
+              "locations": {
+                "DS-Plastic": 6
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-11-05",
+              "locations": {
+                "DS-Plastic": 2
+              },
+              "total": 2,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 125,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "DS-Plastic",
+              "Green City",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 6
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0tg6r-a061ca",
+      "fileName": "CamScanner_23-11-2026_11.30-p05.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0tg6r-a061ca/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Novembea Sgnjay",
+      "laborId": null,
+      "seedKey": null,
+      "createdAt": 1795423550170,
+      "updatedAt": 1795423550170,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Novembea Sgnjay",
+        "laborId": null,
+        "month": "October-2026",
+        "rows": [
+          {
+            "date": "2026-10-29",
+            "locations": {
+              "DS-Plastic": 11
+            },
+            "total": 11,
+            "off": false
+          },
+          {
+            "date": "2026-10-31",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-02",
+            "locations": {},
+            "total": 12,
+            "off": false
+          },
+          {
+            "date": "2026-11-05",
+            "locations": {
+              "DS-Plastic": 16
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-06",
+            "locations": {
+              "DS-Residence": 4
+            },
+            "total": 4,
+            "off": false
+          },
+          {
+            "date": "2026-11-07",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-08",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-09",
+            "locations": {
+              "DS-Plastic": 15
+            },
+            "total": 15,
+            "off": false
+          },
+          {
+            "date": "2026-11-10",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-11",
+            "locations": {
+              "DS-Plastic": 6
+            },
+            "total": 1,
+            "off": false
+          },
+          {
+            "date": "2026-11-12",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-15",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-19",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": null,
+        "matchedName": null,
+        "matchedRecordId": null
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "DS\nDailyWorking HoursDetailsJleJo\nFor theMonther-October-2026-\nEmployee Name &ID#\nNovembea\nSgnjay\nmp:No,4242\nManagement ijby\ndens\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\n\u5fc3\neaui\nLy\n3\nSI\nMon\n26-Oct-26\n0\nfue\n27-Oct-26\n8\nNed\n28-Oct-26\n11\n11\nrhu\n29-Oct-26\n11\n11-\n30-0ct-26\nsat\n31-Oct-26\nQ\n10\nsun\n1-Nov-26\n10\n10\nMon\n2-Nov-26\n12\nrue\n3-NoV-26\n22\nmlcBreakdoun Preoona\n22\nNed\n4-Nov-26\nrhu\n5-NoV-26\n16\n10\n6-NoV-26\nA\nmc4-PWH$\nsat\n7-Nov-26\n10\n8-NoV-26\n10\nd.\nsun\nMon\n9-NoV-26\n15\n?\nrue\n10-NoV-26\n10\nNed\n11-NoV-26\n6\n1\n12-NoV-26\n10\nrhu\nni\n13-NoV-26\nsat\n14-NoV-26\n15-NoV-26\n10\nsun\n10\nMon\n16-NoV-26\nrue\n17-NoV-26\n18-NoV-26\nO\nNed\nQ\n19-NoV-26\n10\nrhu\n20-NoV-26\nsat\n21-Nov-26\n?\nO\nsun\n22-NoV-26\nMon\n23-NoV-26\nrue\n24-NoV-26\nNed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Novembea Sgnjay",
+          "laborId": null,
+          "month": "October-2026",
+          "rows": [
+            {
+              "date": "2026-10-29",
+              "locations": {
+                "DS-Plastic": 11
+              },
+              "total": 11,
+              "off": false
+            },
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-02",
+              "locations": {
+                "__unassigned__": 12
+              },
+              "total": 12,
+              "off": false
+            },
+            {
+              "date": "2026-11-05",
+              "locations": {
+                "DS-Plastic": 16
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-06",
+              "locations": {
+                "DS-Residence": 4
+              },
+              "total": 4,
+              "off": false
+            },
+            {
+              "date": "2026-11-07",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-08",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-09",
+              "locations": {
+                "DS-Plastic": 15
+              },
+              "total": 15,
+              "off": false
+            },
+            {
+              "date": "2026-11-10",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-11",
+              "locations": {
+                "DS-Plastic": 6
+              },
+              "total": 1,
+              "off": false
+            },
+            {
+              "date": "2026-11-12",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-19",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 130,
+            "columnsFound": [
+              "Makkah Yard",
+              "Green City",
+              "DS-Plastic",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 14
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0tpm8-8587e0",
+      "fileName": "CamScanner_23-11-2026_11.30-p06.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0tpm8-8587e0/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Eklash",
+      "laborId": "316",
+      "seedKey": null,
+      "createdAt": 1795423557026,
+      "updatedAt": 1795423557026,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Eklash",
+        "laborId": "316",
+        "month": "October-2026",
+        "rows": [
+          {
+            "date": "2026-11-15",
+            "locations": {},
+            "total": 10,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": "316",
+        "matchedName": "Ekhlas Hashem",
+        "matchedRecordId": "lab-316"
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "AIYoneenAevGhced\nGreenCityweroi\nNommoAI Enjar\nDailyWorkingHoursDetailsayaJi l lelwJuoli\nFor the Month October-November-2026\nEmployee Name&ID#\nEKLASH\nID.316\nbib\nManagementoyloyi\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nI\nPSJI\nMon\n26-0ct-26\nTue\n27-Oct-26\nWed\n28-0ct-26\nThu\n29-0ct-26\nFri\n30-0ct-26\nles\n31-0ct-26\nSun\n01-Nov-26\nMon\n02-Nov-26\nTue\n03-Nov-26\nWed\n04-Nov-26\nThu\n05-Nov-26\nFri\n06-Nov-26\nSat\n07-Nov-26\nSun\n08-Nov-26\nMon\n09-Nov-26\nTue\n10-Nov-26\nWed\n11-Nov-26\nThu\n12-NoV-26\nFri\n13-Nov-26\nSat\n14-Nov-26\n15-Nov-26\n10\nSun\nMon\n16-Nov-26\nD\nTue\n17-Nov-26\nWed\n18-NoV-26\nThu\n19-Nov-26\nFri\n20-NoV-26\nSat\n21-NoV-26\nSun\n22-Nov-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Eklash",
+          "laborId": "316",
+          "month": "October-2026",
+          "rows": [
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 100,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "Green City",
+              "DS-Plastic",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 1
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0tuwm-8472b7",
+      "fileName": "CamScanner_23-11-2026_11.30-p07.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0tuwm-8472b7/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Cmp.No. Md.Limon",
+      "laborId": null,
+      "seedKey": null,
+      "createdAt": 1795423569931,
+      "updatedAt": 1795423569931,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Cmp.No. Md.Limon",
+        "laborId": null,
+        "month": null,
+        "rows": [
+          {
+            "date": "2026-10-31",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-01",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-02",
+            "locations": {
+              "DS-Plastic": 11
+            },
+            "total": 11,
+            "off": false
+          },
+          {
+            "date": "2026-11-04",
+            "locations": {
+              "DS-Mgmt": 1
+            },
+            "total": 1,
+            "off": false
+          },
+          {
+            "date": "2026-11-07",
+            "locations": {
+              "DS-Residence": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-08",
+            "locations": {
+              "DS-Plastic": 6,
+              "DS-Residence": 2
+            },
+            "total": 8,
+            "off": false
+          },
+          {
+            "date": "2026-11-10",
+            "locations": {
+              "Scrap City": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-11",
+            "locations": {
+              "DS-Plastic": 11
+            },
+            "total": 11,
+            "off": false
+          },
+          {
+            "date": "2026-11-12",
+            "locations": {
+              "DS-Plastic": 6
+            },
+            "total": 6,
+            "off": false
+          },
+          {
+            "date": "2026-11-14",
+            "locations": {
+              "DS-Plastic": 4
+            },
+            "total": 4,
+            "off": false
+          },
+          {
+            "date": "2026-11-15",
+            "locations": {
+              "DS-Plastic": 5
+            },
+            "total": 5,
+            "off": false
+          },
+          {
+            "date": "2026-11-17",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-18",
+            "locations": {
+              "DS-Plastic": 8
+            },
+            "total": 8,
+            "off": false
+          },
+          {
+            "date": "2026-11-19",
+            "locations": {},
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-20",
+            "locations": {},
+            "total": 5,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": null,
+        "matchedName": null,
+        "matchedRecordId": null
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "DS\nAIToqeenAdvonced\nGreenCityreeoetoe\nNommaAltnjar\nDailyWorkingHoursDetailsJidI lelwJwolas\nNiom\nEmployee Name&ID#\nCmp.No.313\nbib\nMD.Limon\nManagement 5y\nScrap\nMakkah\nGreen\n-So\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nI\nPSI\n\u5fc3\nelMaUI\nWI\nSWI\nMon\n26-Oct-26\n91\n27-Oct-26\n11\nTue\nWed\n\u897f\n28-Oct-26\nThu\n29-0ct-26\n12\nFri\n30-0ct-26\nles\n31-0ct-26\n10\n10\nSun\n1-NoV-26\n10\n10\n11\nMon\n2-NoV-26\n11\n3-NoV-26\n22\nmlcBoatdown-Preoong\nTue\n22\nWed\n4-NoV-26\n\u4e00\n1\n\u4e00\nThu\n5-Nov-26\nb\nO\nFri\n6-Nov-26\n10\n7-NoV-26\n10\n2\n6\n2\nSun\n8-Nov-26\n\u4f70\nMon\n9-NoV-26\nQ\n10-NoV-26\n10\nTue\nWed\n11-NoV-26\n11\n6\n12-NoV-26\nThu\nFri\n13-NoV-26\nQ\n14-NoV-26\n4p\nQ\nSat\n15-Nov-26\n5\nS\nSun\ng\nMon\n16-NoV-26\n10\nTue\n17-Nov-26\nO\n18-NoV-26\n8\nWed\nn\n19-NoV-26\n10\nThu\nFri\n20-NoV-26\n5\nSat\n21-NoV-26\nQ\nSun\n22-Nov-26\no\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Cmp.No. Md.Limon",
+          "laborId": null,
+          "month": null,
+          "rows": [
+            {
+              "date": "2026-10-31",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-01",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-02",
+              "locations": {
+                "DS-Plastic": 11
+              },
+              "total": 11,
+              "off": false
+            },
+            {
+              "date": "2026-11-04",
+              "locations": {
+                "DS-Mgmt": 1
+              },
+              "total": 1,
+              "off": false
+            },
+            {
+              "date": "2026-11-07",
+              "locations": {
+                "DS-Residence": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-08",
+              "locations": {
+                "DS-Plastic": 6,
+                "DS-Residence": 2
+              },
+              "total": 8,
+              "off": false
+            },
+            {
+              "date": "2026-11-10",
+              "locations": {
+                "Scrap City": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-11",
+              "locations": {
+                "DS-Plastic": 11
+              },
+              "total": 11,
+              "off": false
+            },
+            {
+              "date": "2026-11-12",
+              "locations": {
+                "DS-Plastic": 6
+              },
+              "total": 6,
+              "off": false
+            },
+            {
+              "date": "2026-11-14",
+              "locations": {
+                "DS-Plastic": 4
+              },
+              "total": 4,
+              "off": false
+            },
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "DS-Plastic": 5
+              },
+              "total": 5,
+              "off": false
+            },
+            {
+              "date": "2026-11-17",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-18",
+              "locations": {
+                "DS-Plastic": 8
+              },
+              "total": 8,
+              "off": false
+            },
+            {
+              "date": "2026-11-19",
+              "locations": {
+                "__unassigned__": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-20",
+              "locations": {
+                "__unassigned__": 5
+              },
+              "total": 5,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 144,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "DS-Plastic",
+              "Green City",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 15
+          }
+        }
+      }
+    },
+    {
+      "id": "ts-mwt0u4ve-06be87",
+      "fileName": "CamScanner_23-11-2026_11.30-p08.jpg",
+      "imageName": "original.jpg",
+      "imageRel": "timesheets/ts-mwt0u4ve-06be87/original.jpg",
+      "status": "parsed",
+      "engine": "rapidocr-onnx",
+      "ocrOk": true,
+      "ocrError": null,
+      "employeeName": "Mohannedyousue",
+      "laborId": "196",
+      "seedKey": null,
+      "createdAt": 1795423577059,
+      "updatedAt": 1795423577059,
+      "committedAt": null,
+      "committedRecords": 0,
+      "parsed": {
+        "employeeName": "Mohannedyousue",
+        "laborId": "196",
+        "month": "September-2026",
+        "rows": [
+          {
+            "date": "2026-11-15",
+            "locations": {
+              "DS-Plastic": 20,
+              "Green City": 5
+            },
+            "total": 25,
+            "off": false
+          },
+          {
+            "date": "2026-11-16",
+            "locations": {
+              "DS-Mgmt": 1
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-17",
+            "locations": {
+              "DS-Plastic": 10
+            },
+            "total": 10,
+            "off": false
+          },
+          {
+            "date": "2026-11-18",
+            "locations": {
+              "DS-Plastic": 8
+            },
+            "total": 8,
+            "off": false
+          },
+          {
+            "date": "2026-11-19",
+            "locations": {
+              "DS-Plastic": 5
+            },
+            "total": 5,
+            "off": false
+          }
+        ],
+        "needsReview": true,
+        "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+        "matchedLaborId": "196",
+        "matchedName": "Mohd Yousaf",
+        "matchedRecordId": "lab-196"
+      },
+      "ocr": {
+        "ok": true,
+        "engine": "rapidocr-onnx",
+        "rawText": "ps\nK\nAYeaeehAdvanced\nGroen Cuy e\nNainmgAEnjo\nDailyWorking HoursDetailsayJ JJi leLwoli\nFor theMonthSeptember-etober-2026Si-w-\nDCTOBER-NOVEMBER\nEmployee Name&ID#\n(ID#196)\nb\nMOHAnnEDyOUSUE\nManagement ijby\nScrap\nMakkah\nGreen\nDS-\nDay\nDate\nCity\nYard\nCity\nPlastic\nCentral\nDS-\nDS-\nNamma\nGuzain\nVilla\nTotal\nWorkshop\nResidence\nMgmt\nH.O\nYard\nJI\nhy\n\u5fc3\nelyawi\nI\nSI\nMon\n26-0ct-26\nTue\n27-Oct-26\nWed\n28-0ct-26\nThu\n29-0ct-26\nFri\n30-0ct-26\nles\n31-0ct-26\nSun\n1-NoV-26\nMon\n2-NoV-26\nTue\n3-NoV-26\nWed\n4-Nov-26\nThu\n5-Nov-26\nFri\n6-NoV-26\nSat\n7-Nov-26\nSun\n8-Nov-26\nMon\n9-NoV-26\nTue\n10-NoV-26\nWed\n11-NoV-26\nThu\n12-NoV-26\nFri\n13-NoV-26\nSat\n14-Nov-26\n20\n5\n?\nSun\n15-Nov-26\n1\n10\nMon\n16-NoV-26\n10\n10\nTue\n17-NoV-26\n8\nWed\n18-Nov-26\nThu\n19-NoV-26\nS\nFri\n20-Nov-26\n0\nSat\n21-NoV-26\nO\nSun\n22-NoV-26\nMon\n23-NoV-26\nTue\n24-NoV-26\nWed\n25-NoV-26\nTOTAL\nCamScanner",
+        "parsed": {
+          "employeeName": "Mohannedyousue",
+          "laborId": "196",
+          "month": "September-2026",
+          "rows": [
+            {
+              "date": "2026-11-15",
+              "locations": {
+                "DS-Plastic": 20,
+                "Green City": 5
+              },
+              "total": 25,
+              "off": false
+            },
+            {
+              "date": "2026-11-16",
+              "locations": {
+                "DS-Mgmt": 1
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-17",
+              "locations": {
+                "DS-Plastic": 10
+              },
+              "total": 10,
+              "off": false
+            },
+            {
+              "date": "2026-11-18",
+              "locations": {
+                "DS-Plastic": 8
+              },
+              "total": 8,
+              "off": false
+            },
+            {
+              "date": "2026-11-19",
+              "locations": {
+                "DS-Plastic": 5
+              },
+              "total": 5,
+              "off": false
+            }
+          ],
+          "needsReview": true,
+          "note": "RapidOCR reads IDs/dates/headers well; handwritten location hours are approximate (dense single-column sheets better than sparse multi-site). Always review before commit.",
+          "ocrMeta": {
+            "engine": "rapidocr-onnx",
+            "detections": 116,
+            "columnsFound": [
+              "Scrap City",
+              "Makkah Yard",
+              "Green City",
+              "DS-Plastic",
+              "Al Waha - Villa",
+              "Central Workshop",
+              "DS-Residence",
+              "DS-Mgmt",
+              "Namma H.O",
+              "Guzain Yard",
+              "Total"
+            ],
+            "dateRowsFound": 31,
+            "rowsWithHours": 5
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "at": "2026-11-23T07:47:10.613Z",
+  "attendanceCount": 358,
+  "report": [
+    {
+      "file": "iqbal-195.jpg",
+      "timesheetId": "ts-mwsynfty-29acb4",
+      "employeeName": "Iqbal Karigar",
+      "laborId": "195",
+      "workDays": 25,
+      "committed": 25,
+      "replaced": 24,
+      "risk": "Nov 20 written F-2 → 2h Al Waha - Villa; Fridays otherwise off; Nov 22 added vs prior sheet",
+      "locations": [
+        "Al Waha - Villa"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-22"
+    },
+    {
+      "file": "yousaf-196.jpg",
+      "timesheetId": "ts-mwsyo313-63c33b",
+      "employeeName": "Mohd Yousaf",
+      "laborId": "196",
+      "workDays": 10,
+      "committed": 17,
+      "replaced": 14,
+      "risk": "Sheet only filled Nov 13–22; DS-Residence/DS-Mgmt/Namma verified against daily totals",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City",
+        "Namma H.O"
+      ],
+      "dateRange": "2026-11-13 … 2026-11-22"
+    },
+    {
+      "file": "ishtiaq-312.jpg",
+      "timesheetId": "ts-mwsyojaj-598112",
+      "employeeName": "Ishtiaq A.Aziz",
+      "laborId": "312",
+      "workDays": 25,
+      "committed": 32,
+      "replaced": 29,
+      "risk": "Early days DS-Residence vs Villa; Fri Oct 30 has 2h Residence (not blank F); Nov 9 Villa 6 + DS-Mgmt 4",
+      "locations": [
+        "Al Waha - Villa",
+        "DS-Mgmt",
+        "DS-Plastic",
+        "DS-Residence",
+        "Green City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-22"
+    },
+    {
+      "file": "sadruddin-193.jpg",
+      "timesheetId": "ts-mwsyp4lq-c31c49",
+      "employeeName": "Shaikh Sadruddin",
+      "laborId": "193",
+      "workDays": 24,
+      "committed": 48,
+      "replaced": 46,
+      "risk": "Only Scrap City + Central Workshop; Fridays blank; Nov 22 added",
+      "locations": [
+        "Central Workshop",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-22"
+    },
+    {
+      "file": "tahir-646.jpg",
+      "timesheetId": "ts-mwsypmjf-2b5d94",
+      "employeeName": "Mo Tahir",
+      "laborId": "646",
+      "workDays": 24,
+      "committed": 45,
+      "replaced": 44,
+      "risk": "Oct 28 Central Workshop overwritten 8→6; Nov 22 Central 10 added; no DS-Residence/DS-Mgmt",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Guzain Yard",
+        "Makkah Yard",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-22"
+    },
+    {
+      "file": "salman-299.jpg",
+      "timesheetId": "ts-mwsyq2wa-5baa3b",
+      "employeeName": "Salman Majeed",
+      "laborId": "299",
+      "workDays": 24,
+      "committed": 40,
+      "replaced": 38,
+      "risk": "Oct 26 Scrap City scribble ignored; Oct 31 Central=15; Nov 22 Scrap+Makkah 5+5; no DS-Residence/DS-Mgmt",
+      "locations": [
+        "Central Workshop",
+        "DS-Plastic",
+        "Green City",
+        "Guzain Yard",
+        "Makkah Yard",
+        "Scrap City"
+      ],
+      "dateRange": "2026-10-26 … 2026-11-22"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+[
+  {
+    "id": "att-ts-mwt9ng3x--d",
+    "token": "timesheet:ts-mwt9ng3x-f7b30b",
+    "matched": true,
+    "faceMismatch": false,
+    "locationId": "loc-ds-plastic",
+    "locationName": "DS-Plastic",
+    "workingHours": "12",
+    "hours": 12,
+    "regularHours": 10,
+    "otHours": 2,
+    "confidence": null,
+    "distance": null,
+    "engine": "timesheet-ocr",
+    "laborId": "572",
+    "name": "Shakir Ali",
+    "laborRecordId": "lab-572",
+    "photoDataUrl": "",
+    "createdAt": 1793530800013,
+    "date": "2026-11-01",
+    "source": "timesheet",
+    "timesheetId": "ts-mwt9ng3x-f7b30b"
+  }
+]
