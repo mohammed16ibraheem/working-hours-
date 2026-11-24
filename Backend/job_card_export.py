@@ -185,12 +185,12 @@ def parse_ymd(s: str) -> datetime:
 
 
 def daterange(start: datetime, end: datetime) -> list[datetime]:
+    """Inclusive day list for the export period — never truncate (parity with Reports)."""
     if end < start:
         start, end = end, start
     out = []
     cur = start
-    # Job Card grid is ~31 day rows; keep first 31 if longer
-    while cur <= end and len(out) < 31:
+    while cur <= end:
         out.append(cur)
         cur += timedelta(days=1)
     return out
@@ -721,6 +721,7 @@ def build(payload: dict) -> bytes:
     dsp_hours: dict[tuple[str, str, str], float] = {}
 
     name_by_lid = {e["laborId"]: e["name"] for e in employees}
+    unmapped: list[str] = []
     for e in entries:
         ymd = str(e.get("date") or "")[:10]
         lid = str(e.get("laborId") or "").strip()
@@ -732,6 +733,8 @@ def build(payload: dict) -> bytes:
             name_by_lid.setdefault(lid, str(e.get("name")).strip())
         mapped = map_location(loc)
         if not mapped:
+            # Never silently drop hours — fail so Reports ↔ Excel stay in parity
+            unmapped.append(f"{ymd}|{lid}|{loc}|{h}")
             continue
         sheet, sub = mapped
         if sheet == "DSP":
@@ -741,6 +744,14 @@ def build(payload: dict) -> bytes:
             key = (ymd, lid)
             bucket = simple_hours[sheet]
             bucket[key] = round(bucket.get(key, 0) + h, 2)
+
+    if unmapped:
+        sample = "; ".join(unmapped[:8])
+        more = f" (+{len(unmapped) - 8} more)" if len(unmapped) > 8 else ""
+        raise ValueError(
+            f"Job Card export: {len(unmapped)} hour row(s) have unmapped locations "
+            f"(would be missing from Excel): {sample}{more}"
+        )
 
     wb = load_workbook(TEMPLATE)
 
