@@ -229,6 +229,8 @@ export type AttendanceLogRecord = {
   matched?: boolean;
   faceMismatch?: boolean;
   slug?: string;
+  source?: string;
+  engine?: string;
 };
 
 export type AttendanceUpdatePayload = {
@@ -240,6 +242,40 @@ export type AttendanceUpdatePayload = {
   laborRecordId?: string | null;
   date?: string;
 };
+
+export type AttendanceCreatePayload = {
+  laborId?: string;
+  laborRecordId?: string;
+  locationId: string;
+  date: string;
+  hours: number;
+};
+
+export function createAttendance(payload: AttendanceCreatePayload) {
+  return api<AttendanceLogRecord>("/api/attendance", {
+    method: "POST",
+    body: JSON.stringify(payload),
+  });
+}
+
+export function listAttendanceLogs(opts?: {
+  laborId?: string;
+  locationId?: string;
+  source?: string;
+  from?: string;
+  to?: string;
+  limit?: number;
+}) {
+  const q = new URLSearchParams();
+  if (opts?.laborId) q.set("laborId", opts.laborId);
+  if (opts?.locationId) q.set("locationId", opts.locationId);
+  if (opts?.source) q.set("source", opts.source);
+  if (opts?.from) q.set("from", opts.from);
+  if (opts?.to) q.set("to", opts.to);
+  if (opts?.limit != null) q.set("limit", String(opts.limit));
+  const qs = q.toString();
+  return api<AttendanceLogRecord[]>(`/api/attendance/logs${qs ? `?${qs}` : ""}`);
+}
 
 export function updateAttendance(id: string, payload: AttendanceUpdatePayload) {
   return api<AttendanceLogRecord>(`/api/attendance/${encodeURIComponent(id)}`, {

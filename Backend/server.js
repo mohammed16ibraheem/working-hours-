@@ -516,9 +516,73 @@ app.post("/api/attendance/links/:token/submit", async (req, res) => {
   });
 });
 
+/** Manual Batch entry — same attendance tree/Reports store as timesheet commits. */
+app.post("/api/attendance", async (req, res) => {
+  const body = req.body || {};
+  const laborRecordId = body.laborRecordId != null ? String(body.laborRecordId).trim() : "";
+  const laborId = body.laborId != null ? String(body.laborId).trim() : "";
+  const locationId = String(body.locationId || "").trim();
+  const date = String(body.date || "").trim();
+  const hoursRaw = body.hours != null ? Number(body.hours) : NaN;
+
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date)) {
+    return res.status(400).json({ error: "date must be YYYY-MM-DD." });
+  }
+  if (!Number.isFinite(hoursRaw) || hoursRaw < 0) {
+    return res.status(400).json({ error: "hours must be a non-negative number." });
+  }
+  if (!locationId) {
+    return res.status(400).json({ error: "Location is required." });
+  }
+  if (!laborId && !laborRecordId) {
+    return res.status(400).json({ error: "Employee is required." });
+  }
+
+  const user =
+    (laborRecordId && (await getUserById(laborRecordId))) ||
+    (laborId && (await getUserByLaborId(laborId))) ||
+    null;
+  if (!user) return res.status(400).json({ error: "Employee not found." });
+
+  const locations = await readJson(LOCATIONS_FILE);
+  const loc = locations.find((l) => l.id === locationId);
+  if (!loc) return res.status(400).json({ error: "Location not found." });
+
+  const hours = round2(Math.max(0, hoursRaw));
+  const createdAt = new Date(`${date}T12:00:00`).getTime();
+  try {
+    const saved = await appendAttendance(user, {
+      id: `att-batch-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 7)}`,
+      token: "batch",
+      locationId: loc.id,
+      locationName: loc.name,
+      workingHours: String(hours),
+      hours,
+      matched: true,
+      faceMismatch: false,
+      confidence: null,
+      distance: null,
+      engine: "batch",
+      laborId: user.laborId,
+      name: user.name,
+      laborRecordId: user.id,
+      photoDataUrl: "",
+      createdAt: Number.isFinite(createdAt) ? createdAt : Date.now(),
+      date,
+      source: "batch",
+    });
+    return res.status(201).json(saved);
+  } catch (err) {
+    return res.status(400).json({
+      error: err instanceof Error ? err.message : "Could not save attendance.",
+    });
+  }
+});
+
 app.get("/api/attendance/logs", async (req, res) => {
   const laborIdFilter = String(req.query.laborId || "").trim();
   const locationIdFilter = String(req.query.locationId || "").trim();
+  const sourceFilter = String(req.query.source || "").trim().toLowerCase();
   const fromMs = parseBoundMs(req.query.from, false);
   const toMs = parseBoundMs(req.query.to, true);
   const limitRaw = Number(req.query.limit);
@@ -531,6 +595,10 @@ app.get("/api/attendance/logs", async (req, res) => {
     const lid = String(log.laborId || "_unmatched");
     if (laborIdFilter && lid !== laborIdFilter) return false;
     if (locationIdFilter && String(log.locationId) !== locationIdFilter) return false;
+    if (sourceFilter) {
+      const src = String(log.source || log.engine || "").toLowerCase();
+      if (src !== sourceFilter) return false;
+    }
     return true;
   });
   res.json(filtered.slice(0, limit));

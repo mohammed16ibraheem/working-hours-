@@ -13,6 +13,7 @@ import {
   UserPlus,
   FileSpreadsheet,
   MapPin,
+  ClipboardList,
   ChevronRight,
   LayoutGrid,
   List,
@@ -20,10 +21,12 @@ import {
 import { clearSession, readSession } from "@/lib/auth";
 import { listLabors } from "@/lib/laborStore";
 import { listLocations } from "@/lib/locationStore";
+import { listAttendanceLogs } from "@/lib/attendanceApi";
 import { CreateLaborForm } from "@/components/CreateLaborForm";
 import { EmployeesPanel } from "@/components/EmployeesPanel";
 import { LocationsPanel } from "@/components/LocationsPanel";
 import { ReportsPanel } from "@/components/ReportsPanel";
+import { BatchPanel } from "@/components/BatchPanel";
 import { fetchAttendanceReport } from "@/lib/reportsApi";
 
 function folderFromUrl(): string | null {
@@ -71,6 +74,14 @@ const FOLDERS: FolderItem[] = [
     icon: Users,
   },
   {
+    id: "batch",
+    name: "Batch",
+    description: "Manually enter attendance — saves into Reports",
+    items: 0,
+    updated: "Today",
+    icon: ClipboardList,
+  },
+  {
     id: "location",
     name: "Location",
     description: "Branch and work site names for timesheets",
@@ -98,6 +109,7 @@ export function FoldersWorkspace() {
   const [selected, setSelected] = useState<string | null>(null);
   const [laborCount, setLaborCount] = useState(0);
   const [locationCount, setLocationCount] = useState(0);
+  const [batchCount, setBatchCount] = useState(0);
   const [reportCount, setReportCount] = useState(0);
   const [laborTick, setLaborTick] = useState(0);
   const [locationTick, setLocationTick] = useState(0);
@@ -148,6 +160,15 @@ export function FoldersWorkspace() {
     }
   }
 
+  async function refreshBatchCount() {
+    try {
+      const rows = await listAttendanceLogs({ source: "batch", limit: 500 });
+      setBatchCount(rows.length);
+    } catch {
+      /* keep last known count if backend briefly unreachable */
+    }
+  }
+
   useEffect(() => {
     setFolderParam(folderFromUrl());
     const sync = () => setFolderParam(folderFromUrl());
@@ -175,6 +196,7 @@ export function FoldersWorkspace() {
       setReady(true);
       void refreshLabors();
       void refreshLocations();
+      void refreshBatchCount();
       void refreshReportCount();
     } catch {
       setReady(true);
@@ -194,6 +216,9 @@ export function FoldersWorkspace() {
       if (f.id === "employees" || f.id === "create-labor") {
         return { ...f, items: laborCount };
       }
+      if (f.id === "batch") {
+        return { ...f, items: batchCount };
+      }
       if (f.id === "location") {
         return { ...f, items: locationCount };
       }
@@ -207,7 +232,7 @@ export function FoldersWorkspace() {
     return withCounts.filter(
       (f) => f.name.toLowerCase().includes(q) || f.description.toLowerCase().includes(q),
     );
-  }, [query, laborCount, locationCount, reportCount]);
+  }, [query, laborCount, batchCount, locationCount, reportCount]);
 
   function logout() {
     clearSession();
@@ -306,6 +331,8 @@ export function FoldersWorkspace() {
                       <UserPlus className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "employees" ? (
                       <Users className="h-6 w-6" strokeWidth={1.75} />
+                    ) : opened.id === "batch" ? (
+                      <ClipboardList className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "location" ? (
                       <MapPin className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "reports" ? (
@@ -334,6 +361,13 @@ export function FoldersWorkspace() {
                 />
               ) : opened.id === "employees" ? (
                 <EmployeesPanel refreshKey={laborTick} onChanged={refreshLabors} />
+              ) : opened.id === "batch" ? (
+                <BatchPanel
+                  onSaved={() => {
+                    void refreshBatchCount();
+                    void refreshReportCount();
+                  }}
+                />
               ) : opened.id === "location" ? (
                 <LocationsPanel refreshKey={locationTick} onChanged={refreshLocations} />
               ) : opened.id === "reports" ? (
