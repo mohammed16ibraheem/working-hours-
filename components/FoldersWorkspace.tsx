@@ -11,7 +11,6 @@ import {
   LogOut,
   Users,
   UserPlus,
-  Upload,
   FileSpreadsheet,
   MapPin,
   ChevronRight,
@@ -23,7 +22,6 @@ import { listLabors } from "@/lib/laborStore";
 import { listLocations } from "@/lib/locationStore";
 import { CreateLaborForm } from "@/components/CreateLaborForm";
 import { EmployeesPanel } from "@/components/EmployeesPanel";
-import { UploadTimesheetsPanel } from "@/components/UploadTimesheetsPanel";
 import { LocationsPanel } from "@/components/LocationsPanel";
 import { ReportsPanel } from "@/components/ReportsPanel";
 import { fetchAttendanceReport } from "@/lib/reportsApi";
@@ -32,8 +30,14 @@ function folderFromUrl(): string | null {
   try {
     const raw = new URLSearchParams(window.location.search).get("folder");
     // Old nav ids removed — map bookmarks away from deleted cards
-    if (raw === "generate-attendance") return "upload-timesheets";
-    if (raw === "archives" || raw === "settings") return null;
+    if (
+      raw === "generate-attendance" ||
+      raw === "upload-timesheets" ||
+      raw === "archives" ||
+      raw === "settings"
+    ) {
+      return null;
+    }
     return raw;
   } catch {
     return null;
@@ -65,14 +69,6 @@ const FOLDERS: FolderItem[] = [
     items: 0,
     updated: "Today",
     icon: Users,
-  },
-  {
-    id: "upload-timesheets",
-    name: "Upload timesheet images",
-    description: "OCR Daily Working Hours sheets into Reports",
-    items: 0,
-    updated: "Today",
-    icon: Upload,
   },
   {
     id: "location",
@@ -201,7 +197,7 @@ export function FoldersWorkspace() {
       if (f.id === "location") {
         return { ...f, items: locationCount };
       }
-      if (f.id === "reports" || f.id === "upload-timesheets") {
+      if (f.id === "reports") {
         return { ...f, items: reportCount };
       }
       return f;
@@ -310,8 +306,6 @@ export function FoldersWorkspace() {
                       <UserPlus className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "employees" ? (
                       <Users className="h-6 w-6" strokeWidth={1.75} />
-                    ) : opened.id === "upload-timesheets" ? (
-                      <Upload className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "location" ? (
                       <MapPin className="h-6 w-6" strokeWidth={1.75} />
                     ) : opened.id === "reports" ? (
@@ -340,13 +334,6 @@ export function FoldersWorkspace() {
                 />
               ) : opened.id === "employees" ? (
                 <EmployeesPanel refreshKey={laborTick} onChanged={refreshLabors} />
-              ) : opened.id === "upload-timesheets" ? (
-                <UploadTimesheetsPanel
-                  refreshKey={laborTick}
-                  onCommitted={() => {
-                    void refreshReportCount();
-                  }}
-                />
               ) : opened.id === "location" ? (
                 <LocationsPanel refreshKey={locationTick} onChanged={refreshLocations} />
               ) : opened.id === "reports" ? (
