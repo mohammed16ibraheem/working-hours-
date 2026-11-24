@@ -1,0 +1,25 @@
+[
+  {
+    "id": "att-ts-mwugdsja--c",
+    "token": "timesheet:ts-mwugdsja-2608b5",
+    "matched": true,
+    "faceMismatch": false,
+    "locationId": "loc-al-waha-villa",
+    "locationName": "Al Waha - Villa",
+    "workingHours": "12",
+    "hours": 12,
+    "regularHours": 10,
+    "otHours": 2,
+    "confidence": null,
+    "distance": null,
+    "engine": "timesheet-ocr",
+    "laborId": "312",
+    "name": "Ishtiaq A.Aziz",
+    "laborRecordId": "lab-312",
+    "photoDataUrl": "",
+    "createdAt": 1793444400012,
+    "date": "2026-10-31",
+    "source": "timesheet",
+    "timesheetId": "ts-mwugdsja-2608b5"
+  }
+]
