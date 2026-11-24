@@ -1,0 +1,82 @@
+[
+  {
+    "id": "loc-scrap-city",
+    "name": "Scrap City",
+    "address": "",
+    "updatedAt": 1
+  },
+  {
+    "id": "loc-makkah-yard",
+    "name": "Makkah Yard",
+    "address": "",
+    "updatedAt": 2
+  },
+  {
+    "id": "loc-green-city",
+    "name": "Green City",
+    "address": "",
+    "updatedAt": 1795095793387,
+    "logoUrl": "/locations/green-city-international.png",
+    "logoName": "green-city-international.png"
+  },
+  {
+    "id": "loc-ds-plastic",
+    "name": "DS-Plastic",
+    "address": "",
+    "updatedAt": 1795335385510,
+    "logoName": "diamond-star-arabia.png",
+    "logoUrl": "/locations/diamond-star-arabia.png",
+    "logoDataUrl": ""
+  },
+  {
+    "id": "loc-al-waha-villa",
+    "name": "Al Waha - Villa",
+    "address": "",
+    "updatedAt": 3
+  },
+  {
+    "id": "loc-central-workshop",
+    "name": "Central Workshop",
+    "address": "",
+    "updatedAt": 4
+  },
+  {
+    "id": "loc-ds-residence",
+    "name": "DS-Residence",
+    "address": "",
+    "updatedAt": 5,
+    "logoUrl": "/locations/diamond-star-arabia.png",
+    "logoName": "diamond-star-arabia.png"
+  },
+  {
+    "id": "loc-ds-mgmt",
+    "name": "DS-Mgmt",
+    "address": "",
+    "updatedAt": 6,
+    "logoUrl": "/locations/diamond-star-arabia.png",
+    "logoName": "diamond-star-arabia.png"
+  },
+  {
+    "id": "loc-namma-ho",
+    "name": "Namma H.O",
+    "address": "",
+    "updatedAt": 1795335397300,
+    "logoUrl": "/locations/namma-al-enjaz.png",
+    "logoName": "namma-al-enjaz.png",
+    "logoDataUrl": ""
+  },
+  {
+    "id": "loc-guzain-yard",
+    "name": "Guzain Yard",
+    "address": "",
+    "updatedAt": 7
+  },
+  {
+    "id": "loc-al-yaqeen",
+    "name": "Al Yaqeen Advanced Trading",
+    "address": "",
+    "updatedAt": 1795095793388,
+    "logoUrl": "/locations/al-yaqeen-advanced-trading.png",
+    "logoName": "al-yaqeen-advanced-trading.png"
+  }
+]

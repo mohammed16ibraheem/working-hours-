@@ -1,0 +1,8 @@
+# Timesheet OCR (Backend/.venv)
+pillow
+pytesseract
+opencv-python-headless
+numpy
+easyocr
+torch
+torchvision
